@@ -1,0 +1,2359 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+msgid "spreadsheet.main.menu.file"
+msgstr "french"
+
+msgid "spreadsheet.main.menu.view"
+msgstr "View"
+
+msgid "spreadsheet.main.menu.upgrade"
+msgstr "Mise à niveau"
+
+msgid "main.footer.text"
+msgstr "© Copyright Linguallo 2019. Tous droits réservés"
+
+msgid "main.header.logo"
+msgstr "Linguallo"
+
+msgid "main.header.menu.profile"
+msgstr "Compte"
+
+msgid "main.header.menu.logout"
+msgstr "Déconnecter"
+
+msgid "main.header.menu.login"
+msgstr "Connexion"
+
+msgid "main.header.menu.signup"
+msgstr "S'inscrire"
+
+msgid "main.header.sidebar.spreadsheets"
+msgstr "Feuilles"
+
+msgid "main.header.sidebar.projects"
+msgstr "Projets"
+
+msgid "main.header.sidebar.organization.title"
+msgstr "Organisations"
+
+msgid "main.header.sidebar.organization.create"
+msgstr "Créer un organisation"
+
+msgid "main.header.banner.confirm"
+msgstr "Veuillez confirmer votre adresse e-mail: %1$s."
+
+msgid "main.header.banner.resend"
+msgstr "Ré-envoyer l'email"
+
+msgid "main.header.banner.resend-success"
+msgstr "Renvoyer le succès"
+
+msgid "home.sidebar.organization.create"
+msgstr "Créer un organisation"
+
+msgid "home.sidebar.organization.title"
+msgstr "Organisations"
+
+msgid "home.sidebar.spreadsheets"
+msgstr "Feuilles"
+
+msgid "home.sidebar.projects"
+msgstr "Projets"
+
+msgid "landing.login-section.title"
+msgstr "Localisation simplifiée"
+
+msgid "landing.login-section.subtitle"
+msgstr ""
+"Localisez des applications Web et natives incroyablement facile avec <b> "
+"Linguallo </b>. \n"
+"Solution de gestion et de fourniture de localisation simple, évolutive et "
+"gratuite."
+
+msgid "landing.login-section.cta"
+msgstr "Inscrivez-vous, c'est gratuit!"
+
+msgid "landing.content-section.title"
+msgstr "Traduisez votre contenu en utilisant nos feuilles conviviales et cohérentes."
+
+msgid "landing.content-section.subtitle"
+msgstr ""
+"Les feuilles de Linguallo offrent des possibilités infinies aux "
+"organisations et aux développeurs ainsi qu'aux traducteurs."
+
+msgid "landing.content-section.cta"
+msgstr "Essayez-le - c'est gratuit!"
+
+msgid "landing.hero-section.title"
+msgstr "L'utilisation de <b>Linguallo</b> réduit de moitié le temps de localisation"
+
+msgid "landing.hero-section.subtitle"
+msgstr ""
+"Plus besoin de copier/coller manuellement.\n"
+"Les <b> feuilles de calcul faciles à utiliser </b> de Linguallo et son "
+"éditeur puissant vous aident à modifier rapidement vos traductions pour des "
+"résultats automatiquement visibles sur votre site Web et vos applications."
+
+msgid "landing.hero-section.cta"
+msgstr "Inscrivez-vous, c'est gratuit!"
+
+msgid "landing.flow-section.title"
+msgstr ""
+"<b> Linguallo </b> vous permet de travailler plus en collaboration et d’en "
+"faire plus."
+
+msgid "landing.flow-section.subtitle"
+msgstr ""
+"Les feuilles et les feuilles de <b> Linguallo </b> vous permettent "
+"d’organiser vos traductions de manière flexible."
+
+msgid "landing.get-started-section.title"
+msgstr "Commencer à localiser aujourd'hui"
+
+msgid "landing.get-started-section.subtitle"
+msgstr ""
+"Tirez le meilleur parti de la localisation en vous inscrivant à Linguallo "
+"pour en faire plus."
+
+msgid "landing.get-started-section.cta"
+msgstr "Inscrivez-vous, c'est gratuit!"
+
+msgid "main.footer.links.privacy-policy"
+msgstr "Politique de confidentialité"
+
+msgid "main.footer.links.terms-and-conditions"
+msgstr "Politique d’utilisation des données"
+
+msgid "landing.feature-section.publisher.title"
+msgstr ""
+"<b> Linguallo </b> prend en charge de nombreux formats de fichiers de "
+"localisation sur différentes plates-formes et langages de programmation."
+
+msgid "landing.feature-section.publisher.subtitle"
+msgstr ""
+"Importer et exporter à partir de <b>XLIFF</b> et de <b>CSV</b> n'a jamais "
+"été aussi simple. L'éditeur de Linguallo fournit des fichiers de traduction "
+"sur votre Web ou vos applications natives dans différents formats tels que "
+"<b>.json</b>, <b>.xml</b>, <b>.strings</b>, etc."
+
+msgid "main.footer.links.pricing"
+msgstr "Prix"
+
+msgid "spreadsheet.main.menu.publisher"
+msgstr "Publisher"
+
+msgid "spreadsheet.main.menu.release-mgmt"
+msgstr "Gestion des versions"
+
+msgid "spreadsheet.main.permissions.ORGANIZATION"
+msgstr "<i class=\"fa fa-users\" aria-hidden=\"true\"></i> Organisation visible"
+
+msgid "spreadsheet.main.permissions.PRIVATE"
+msgstr "<i class=\"fa fa-lock\" aria-hidden=\"true\"></i> Privé"
+
+msgid "spreadsheet.create.message.success"
+msgstr "Feuille créée"
+
+msgid "spreadsheet.request.create.message.success"
+msgstr "Demand créée"
+
+msgid "project.create.message.success"
+msgstr "Project créée"
+
+msgid "main.footer.links.about"
+msgstr "À propos"
+
+msgid "organization.create.message.success"
+msgstr "Organisation créée"
+
+msgid "common.last-modified.seconds-ago"
+msgstr "Dernière modification juste maintenant"
+
+msgid "common.last-modified.one-minute-ago"
+msgstr "Dernière modification il y a une minute"
+
+msgid "common.last-modified.ten-minutes-ago"
+msgstr "Dernière modification il y a dix minutes"
+
+msgid "common.last-modified.one-hour-ago"
+msgstr "Dernière modification il y a une heure"
+
+msgid "common.last-modified.one-day-ago"
+msgstr "Modification il y a 24 heures"
+
+msgid "common.last-modified.date"
+msgstr "Dernière modification %1$s"
+
+msgid "main.header.menu.header.change-language"
+msgstr "Changer de langue"
+
+msgid "main.header.menu.change-language"
+msgstr "Changer de langue..."
+
+msgid "main.header.menu.contact-us"
+msgstr "Contactez-nous"
+
+msgid "main.footer.links.contact"
+msgstr "Contactez-nous"
+
+msgid "not-found.page.title"
+msgstr "404 - page non trouvèe"
+
+msgid "not-found.page.subtitle"
+msgstr "Oups, cette page n'existe pas. S'il vous plâit, allez à %1$s."
+
+msgid "not-found.page.subtitle-link"
+msgstr "Page d'accueil"
+
+msgid "auth.page.login.subtitle"
+msgstr "Connectez-vous pour dèmarrer votre session ou %1$s"
+
+msgid "auth.page.login.subtitle-link"
+msgstr "Créer un nouveau compte"
+
+msgid "auth.page.login.form.error.INVALID_EMAIL"
+msgstr ""
+"\n"
+"Email ou mot de passe invalide"
+
+msgid "auth.page.login.form.error.INVALID_PASSWORD"
+msgstr ""
+"\n"
+"Email ou mot de passe invalide"
+
+msgid "auth.page.login.form.email.label"
+msgstr "Email"
+
+msgid "auth.page.login.form.email.placeholder"
+msgstr "par exemple utilisateur@gmail.com"
+
+msgid "auth.page.login.form.password.label"
+msgstr "Mot de passe"
+
+msgid "auth.page.login.form.password.placeholder"
+msgstr "par example  **********"
+
+msgid "auth.page.login.form.cta"
+msgstr "Se connecter"
+
+msgid "auth.page.login.form.forgot-link"
+msgstr ""
+"\n"
+"J'ai oublié mon mot de passe"
+
+msgid "auth.page.forgot.subtitle"
+msgstr "Vous n'avez pas de compte? %1$s"
+
+msgid "auth.page.forgot.subtitle-link"
+msgstr "Il suffit d'aller créer un nouveau compte"
+
+msgid "auth.page.forgot.form.email.label"
+msgstr "Email"
+
+msgid "auth.page.forgot.form.email.placeholder"
+msgstr "par exemple utilisateur@gmail.com"
+
+msgid "auth.page.forgot.form.cta"
+msgstr "Envoyer un email"
+
+msgid "auth.page.forgot.form.login-link"
+msgstr ""
+"\n"
+"Se souvenir du mot de passe?"
+
+msgid "auth.page.forgot.form.success"
+msgstr ""
+"S'il vous plaît vérifier votre email, nous avons envoyé le lien de "
+"vérification là-bas."
+
+msgid "auth.page.forgot-confirm.form.title"
+msgstr "Veuillez saisir un nouveau mot de passe."
+
+msgid "auth.page.forgot-confirm.form.password.label"
+msgstr "Nouveau mot de passe"
+
+msgid "auth.page.forgot-confirm.form.confirm-password.label"
+msgstr "Confirmez la mot de passe"
+
+msgid "auth.page.forgot-confirm.form.cta"
+msgstr "Changer la mot de passe"
+
+msgid "auth.page.forgot-confirm.verifying"
+msgstr "Jeton de vérification..."
+
+msgid "auth.page.forgot-confirm.invalid-token"
+msgstr "Jeton invalide"
+
+msgid "auth.page.forgot-confirm.success"
+msgstr ""
+"Mot de passe mis à jour avec succès, veuillez vous rendre et %1$s avec le "
+"nouveau mot de passe."
+
+msgid "auth.page.forgot-confirm.success-link"
+msgstr "S'identifier"
+
+msgid "auth.page.change-email.login.form.title"
+msgstr "Connectez-vous pour changer votre email"
+
+msgid "auth.page.change-email.login.form.error.INVALID_EMAIL"
+msgstr ""
+"\n"
+"Email ou mot de passe invalide"
+
+msgid "auth.page.change-email.login.form.error.INVALID_PASSWORD"
+msgstr ""
+"\n"
+"Email ou mot de passe invalide"
+
+msgid "auth.page.change-email.login.form.email.label"
+msgstr "Email"
+
+msgid "auth.page.change-email.login.form.email.placeholder"
+msgstr "par exemple utilisateur@gmail.com"
+
+msgid "auth.page.change-email.login.form.password.label"
+msgstr "Mot de passe"
+
+msgid "auth.page.change-email.login.form.password.placeholder"
+msgstr "par example  **********"
+
+msgid "auth.page.change-email.login.form.cta"
+msgstr "Se connecter"
+
+msgid "auth.page.change-email.verifying"
+msgstr "Jeton de vérification..."
+
+msgid "auth.page.change-email.invalid-token"
+msgstr "Jeton invalide"
+
+msgid "auth.page.change-email.success"
+msgstr "Email mis à jour avec succès"
+
+msgid "auth.page.register.subtitle"
+msgstr "Créez un nouveau compte %1$s"
+
+msgid "auth.page.register.subtitle-link"
+msgstr "ou connectez-vous à votre compte"
+
+msgid "auth.page.register.form.error.USER_EXISTS"
+msgstr "Cet email existe déjà"
+
+msgid "auth.page.register.form.email.label"
+msgstr "Email"
+
+msgid "auth.page.register.form.email.placeholder"
+msgstr "par exemple utilisateur@gmail.com"
+
+msgid "auth.page.register.form.name.label"
+msgstr "Nom complet"
+
+msgid "auth.page.register.form.name.placeholder"
+msgstr "par example John Doe"
+
+msgid "auth.page.register.form.password.label"
+msgstr "Mot de passe"
+
+msgid "auth.page.register.form.password.placeholder"
+msgstr "par example  **********"
+
+msgid "auth.page.register.form.cta"
+msgstr "S'incrire"
+
+msgid "auth.page.register.form.accept"
+msgstr "En vous inscrivant, vous acceptez les %1$s et %2$s de Linguallo."
+
+msgid "auth.page.register.form.accept-pp"
+msgstr "Politique de confidentialité"
+
+msgid "auth.page.register.form.accept-tc"
+msgstr "Politique d’utilisation des données"
+
+msgid "auth.page.verify.verifying"
+msgstr "Jeton de vérification..."
+
+msgid "auth.page.verify.invalid-token"
+msgstr "Jeton invalide"
+
+msgid "auth.page.verify.success"
+msgstr "Utilisateur vérifié avec succès, veuillez continuer à %1$s."
+
+msgid "auth.page.verify.success-link"
+msgstr "Page d'accueil"
+
+msgid "auth.page.invite.verifying"
+msgstr "Jeton de vérification..."
+
+msgid "auth.page.invite.invalid-token"
+msgstr "Jeton invalide"
+
+msgid "auth.page.invite.success"
+msgstr "Enregistré avec succès, veuillez vous rendre sur %1$s."
+
+msgid "auth.page.invite.success-link"
+msgstr "Page d'accueil"
+
+msgid "auth.page.invite.form.title"
+msgstr "S'il vous plaît entrer le mot de passe"
+
+msgid "auth.page.invite.form.email.label"
+msgstr "Email"
+
+msgid "auth.page.invite.form.email.placeholder"
+msgstr "Email"
+
+msgid "auth.page.invite.form.name.label"
+msgstr "Nom"
+
+msgid "auth.page.invite.form.name.placeholder"
+msgstr "Nom"
+
+msgid "auth.page.invite.form.password.label"
+msgstr "Mot de passe"
+
+msgid "auth.page.invite.form.password.placeholder"
+msgstr "par example  **********"
+
+msgid "auth.page.invite.form.cta"
+msgstr "Joindre"
+
+msgid "landing.login.form.error.INVALID_EMAIL"
+msgstr "Email ou mot de passe invalide"
+
+msgid "landing.login.form.error.INVALID_PASSWORD"
+msgstr "Email ou mot de passe invalide"
+
+msgid "landing.login.form.email.label"
+msgstr "Email"
+
+msgid "landing.login.form.email.placeholder"
+msgstr "par exemple utilisateur@gmail.com"
+
+msgid "landing.login.form.password.label"
+msgstr "Mot de passe"
+
+msgid "landing.login.form.password.placeholder"
+msgstr "par example  **********"
+
+msgid "landing.login.form.cta"
+msgstr "Se connecter"
+
+msgid "landing.login.form.forgot-link"
+msgstr "J'ai oublié mon mot de passe"
+
+msgid "errors.user.email.required"
+msgstr "Email est requis"
+
+msgid "errors.user.email.email"
+msgstr "Email invalide"
+
+msgid "errors.user.email.maxlength"
+msgstr "Maximum de 50 caractères"
+
+msgid "errors.user.password.required"
+msgstr "Mot de passe requis"
+
+msgid "errors.user.password.minlength"
+msgstr "Doit comporter entre 3 et 16 caractères"
+
+msgid "errors.user.password.maxlength"
+msgstr "Doit comporter entre 3 et 16 caractères"
+
+msgid "errors.user.passwordNoVerify.required"
+msgstr "Mot de passe requis"
+
+msgid "errors.user.passwordNoVerify.maxlength"
+msgstr "Maximum de 16 caractères"
+
+msgid "errors.user.name.required"
+msgstr "Le nom est requis"
+
+msgid "errors.user.name.minlength"
+msgstr "Doit comporter entre 2 et 50 caractères"
+
+msgid "errors.user.name.maxlength"
+msgstr "Doit comporter entre 2 et 50 caractères"
+
+msgid "errors.user.username.required"
+msgstr "Nom d'utilisateur est requis"
+
+msgid "errors.user.username.minlength"
+msgstr "Doit comporter entre 2 et 30 caractères"
+
+msgid "errors.user.username.maxlength"
+msgstr "Doit comporter entre 2 et 30 caractères"
+
+msgid "errors.user.bio.maxlength"
+msgstr "Maximum de 256 caractères"
+
+msgid "errors.organization.name.required"
+msgstr "Le nom est requis"
+
+msgid "errors.organization.name.minlength"
+msgstr "Doit comporter entre 2 et 50 caractères"
+
+msgid "errors.organization.name.maxlength"
+msgstr "Doit comporter entre 2 et 50 caractères"
+
+msgid "errors.organization.shortname.required"
+msgstr "Le nom abrégé est requis"
+
+msgid "errors.organization.shortname.minlength"
+msgstr "Doit comporter entre 2 et 30 caractères"
+
+msgid "errors.organization.shortname.maxlength"
+msgstr "Doit comporter entre 2 et 30 caractères"
+
+msgid "errors.organization.bio.maxlength"
+msgstr "Maximum de 256 caractères"
+
+msgid "errors.organization.website.maxlength"
+msgstr "Maximum de 50 caractères"
+
+msgid "errors.project.table.language.maxlength"
+msgstr "Maximum de 4096 caractères"
+
+msgid "errors.project.comment.maxlength"
+msgstr "Maximum de 256 caractères"
+
+msgid "errors.spreadsheet.name.required"
+msgstr "Le nom est requis"
+
+msgid "errors.spreadsheet.name.minlength"
+msgstr "Doit comporter entre 2 et 50 caractères"
+
+msgid "errors.spreadsheet.name.maxlength"
+msgstr "Doit comporter entre 2 et 50 caractères"
+
+msgid "errors.spreadsheet.sheet.name.required"
+msgstr "Le nom est requis"
+
+msgid "errors.spreadsheet.sheet.name.minlength"
+msgstr "Doit comporter entre 2 et 50 caractères"
+
+msgid "errors.spreadsheet.sheet.name.maxlength"
+msgstr "Doit comporter entre 2 et 50 caractères"
+
+msgid "errors.spreadsheet.language.code.required"
+msgstr "Le nom de la langue est requis"
+
+msgid "errors.spreadsheet.language.code.minlength"
+msgstr "Doit comporter entre 2 et 10 caractères"
+
+msgid "errors.spreadsheet.language.code.maxlength"
+msgstr "Doit comporter entre 2 et 10 caractères"
+
+msgid "errors.spreadsheet.language.name.required"
+msgstr ""
+"\n"
+"Le nom de la langue est requis"
+
+msgid "errors.spreadsheet.language.name.minlength"
+msgstr "Doit comporter entre 2 et 50 caractères"
+
+msgid "errors.spreadsheet.language.name.maxlength"
+msgstr "Doit comporter entre 2 et 50 caractères"
+
+msgid "errors.spreadsheet.language.fallbacks.maxlength"
+msgstr "Maximum de 100 caractères"
+
+msgid "errors.spreadsheet.table.language.maxlength"
+msgstr "Maximum de 4096 caractères"
+
+msgid "errors.spreadsheet.table.description.maxlength"
+msgstr "Maximum de 256 caractères"
+
+msgid "errors.spreadsheet.table.key.required"
+msgstr "ID est requis"
+
+msgid "errors.spreadsheet.table.key.maxlength"
+msgstr "Maximum de 100 caractères"
+
+msgid "errors.spreadsheet.comment.maxlength"
+msgstr "Maximum de 256 caractères"
+
+msgid "contact.page.title"
+msgstr "Contactez-nous"
+
+msgid "contact.page.form.name.label"
+msgstr "Nom"
+
+msgid "contact.page.form.email.label"
+msgstr "Email"
+
+msgid "contact.page.form.subject.label"
+msgstr "Matière"
+
+msgid "contact.page.form.text.placeholder"
+msgstr "Que pouvons-nous faire pour vous?"
+
+msgid "contact.page.form.cta"
+msgstr "Soumettre"
+
+msgid "contact.page.success"
+msgstr ""
+"Le message a été envoyé, nous essaierons de vous recontacter dans les "
+"meilleurs délais."
+
+msgid "contact.page.success-link"
+msgstr "Continuer sur Linguallo!"
+
+msgid "contact.page.head.title"
+msgstr "Contactez-nous | Linguallo"
+
+msgid "terms-and-conditions.page.title"
+msgstr "Politique d’utilisation des données"
+
+msgid "terms-and-conditions.page.head.title"
+msgstr "Politique d’utilisation des données | Linguallo"
+
+msgid "privacy-policy.page.title"
+msgstr "Politique de confidentialité"
+
+msgid "privacy-policy.page.head.title"
+msgstr "Politique de confidentialité | Linguallo"
+
+msgid "pricing.page.title"
+msgstr "Prix"
+
+msgid "main.page.head.title"
+msgstr "Localisation simplifiée | Linguallo"
+
+msgid "main.page.head.description"
+msgstr ""
+"Localisez des applications Web et natives incroyablement facile avec <b> "
+"Linguallo </b>. \n"
+"Solution de gestion et de fourniture de localisation simple, évolutive et "
+"gratuite."
+
+msgid "not-found.page.head.title"
+msgstr "Page non trouvée | Linguallo"
+
+msgid "auth.page.login.head.title"
+msgstr "Connextion  | Linguallo"
+
+msgid "auth.page.forgot.head.title"
+msgstr "Mot de passe oublié | Linguallo"
+
+msgid "auth.page.forgot-confirm.head.title"
+msgstr "Mot de passe oublié | Linguallo"
+
+msgid "auth.page.change-email.head.title"
+msgstr "Changer l'email| Linguallo"
+
+msgid "auth.page.register.head.title"
+msgstr "Créer un nouveau compte | Linguallo"
+
+msgid "auth.page.verify.head.title"
+msgstr "Activer le compte  | Linguallo"
+
+msgid "auth.page.invite.head.title"
+msgstr "Joindre | Linguallo"
+
+msgid "pricing.page.head.title"
+msgstr "Prix | Linguallo"
+
+msgid "projects.page.head.title"
+msgstr "Projets | Linguallo"
+
+msgid "pricing.plan.free.price"
+msgstr "$0"
+
+msgid "pricing.plan.free.name"
+msgstr "Gratuit"
+
+msgid "pricing.plan.free.title"
+msgstr "Pour tout le monde"
+
+msgid "pricing.plan.free.subtitle"
+msgstr "Pour toujours"
+
+msgid "pricing.plan.free.benefits.members"
+msgstr "<b>3</b> utilisateurs"
+
+msgid "pricing.plan.free.benefits.sheets"
+msgstr "<b>1</b> feuilles"
+
+msgid "pricing.plan.free.benefits.languages"
+msgstr "<b>5</b> langues"
+
+msgid "pricing.plan.free.benefits.hosted-keys"
+msgstr "<b>500</b> clés hébergées"
+
+msgid "pricing.plan.free.benefits.deployments"
+msgstr "Déploiements <b>illimités</b>"
+
+msgid "pricing.plan.free.benefits.versions"
+msgstr "<b>Pas</b> de versions"
+
+msgid "pricing.plan.free.benefits.content-size"
+msgstr "<b>5MB</b> limite de taille du contenu"
+
+msgid "pricing.plan.general.cta.register"
+msgstr "Inscrivez-vous, c'est gratuit!"
+
+msgid "pricing.plan.general.cta.upgrade"
+msgstr "Mise à niveau"
+
+msgid "pricing.plan.general.cta.contact-us"
+msgstr "Contactez-nous"
+
+msgid "pricing.plan.general.coming-soon"
+msgstr "Bientôt disponible"
+
+msgid "pricing.plan.general.dialog.cta.close"
+msgstr "Proche"
+
+msgid "pricing.plan.general.dialog.header"
+msgstr "Plans de mise à niveau"
+
+msgid "pricing.plan.general.tab.cloud"
+msgstr "Cloud"
+
+msgid "pricing.plan.general.tab.server"
+msgstr "Licence serveur"
+
+msgid "pricing.plan.starter.monthly-price"
+msgstr "<h2>$24.99</h2> / par mois"
+
+msgid "pricing.plan.starter.annual-price"
+msgstr "<h2>$19.99</h2> / par mois"
+
+msgid "pricing.plan.starter.name"
+msgstr "Entrée"
+
+msgid "pricing.plan.starter.title"
+msgstr "Par feuille de calcul de"
+
+msgid "pricing.plan.starter.billed-annually"
+msgstr "Facturé annuellement"
+
+msgid "pricing.plan.starter.billed-monthly"
+msgstr "Facturé mensuellement"
+
+msgid "pricing.plan.starter.benefits.members"
+msgstr "<b>8</b> utilisateurs"
+
+msgid "pricing.plan.starter.benefits.sheets"
+msgstr "<b>4</b> feuilles"
+
+msgid "pricing.plan.starter.benefits.languages"
+msgstr "<b>12</b> langues"
+
+msgid "pricing.plan.starter.benefits.hosted-keys"
+msgstr "<b>1000</b> clés hébergées par feuille"
+
+msgid "pricing.plan.starter.benefits.deployments"
+msgstr "Déploiements <b>illimités</b>"
+
+msgid "pricing.plan.starter.benefits.versions"
+msgstr "<b>2</b> versions"
+
+msgid "pricing.plan.starter.benefits.content-size"
+msgstr "<b>10MB</b> limite de taille du contenu"
+
+msgid "pricing.plan.professional.monthly-price"
+msgstr "<h2>$99.99</h2> / par mois"
+
+msgid "pricing.plan.professional.annual-price"
+msgstr "<h2>$79.99</h2> / par mois"
+
+msgid "pricing.plan.professional.name"
+msgstr "Professionnelle"
+
+msgid "pricing.plan.professional.title"
+msgstr "Par feuille de calcul de"
+
+msgid "pricing.plan.professional.billed-annually"
+msgstr "Facturé annuellement"
+
+msgid "pricing.plan.professional.billed-monthly"
+msgstr "Facturé mensuellement"
+
+msgid "pricing.plan.professional.benefits.members"
+msgstr "<b>25</b> utilisateurs"
+
+msgid "pricing.plan.professional.benefits.sheets"
+msgstr "Feuilles <b>illimitées</b>"
+
+msgid "pricing.plan.professional.benefits.languages"
+msgstr "Languges <b>illimitées</b>"
+
+msgid "pricing.plan.professional.benefits.hosted-keys"
+msgstr "<b>10000</b> clés hébergées par feuille"
+
+msgid "pricing.plan.professional.benefits.deployments"
+msgstr "déploiements <b>illimités</b>"
+
+msgid "pricing.plan.professional.benefits.versions"
+msgstr "<b>10 </b> versions"
+
+msgid "pricing.plan.professional.benefits.content-size"
+msgstr "<b>20MB</b> limite de taille du contenu"
+
+msgid "pricing.plan.enterprise.name"
+msgstr "Entreprise"
+
+msgid "pricing.plan.enterprise.title"
+msgstr "Pour les grandes entreprises"
+
+msgid "pricing.plan.enterprise.contact-us"
+msgstr "Contactez-nous"
+
+msgid "pricing.plan.enterprise.benefits.members"
+msgstr "Utilisateurs <b>illimités</b>"
+
+msgid "pricing.plan.enterprise.benefits.spreadsheets"
+msgstr "Feuilles <b>illimitées</b>"
+
+msgid "pricing.plan.enterprise.benefits.hosting"
+msgstr "Sur place ou hébergement Cloud"
+
+msgid "main.footer.links.cookies"
+msgstr "Cookies"
+
+msgid "cookies.page.head.title"
+msgstr "Cookies | Linguallo"
+
+msgid "cookies.page.title"
+msgstr "Cookies"
+
+msgid "main.header.sidebar.spreadsheet.general"
+msgstr "Général"
+
+msgid "main.header.sidebar.spreadsheet.languages"
+msgstr "Langues"
+
+msgid "main.header.sidebar.spreadsheet.members"
+msgstr "Membres"
+
+msgid "main.header.sidebar.spreadsheet.environments"
+msgstr "Environnements"
+
+msgid "main.header.sidebar.spreadsheet.projects"
+msgstr "Projets"
+
+msgid "main.header.sidebar.spreadsheet.requests"
+msgstr "Demandes"
+
+msgid "main.header.sidebar.spreadsheet.billing"
+msgstr "Facturation"
+
+msgid "spreadsheet.file-list.create.cta"
+msgstr "Créer une nouvelle feuille"
+
+msgid "spreadsheet.create.dialog.header"
+msgstr "Créer une feuille"
+
+msgid "spreadsheet.create.dialog.form.organization.label"
+msgstr "Organisation"
+
+msgid "spreadsheet.create.dialog.form.organization.no-org"
+msgstr "Pas d'organisation"
+
+msgid "spreadsheet.create.dialog.form.name.label"
+msgstr "Nom"
+
+msgid "spreadsheet.create.dialog.form.name.placeholder"
+msgstr "par example Linguallo"
+
+msgid "spreadsheet.create.dialog.form.cta.cancel"
+msgstr "Annuler"
+
+msgid "spreadsheet.create.dialog.form.cta.create"
+msgstr "Créer "
+
+msgid "organization.create.dialog.header"
+msgstr "Créer une organisation"
+
+msgid "organization.create.dialog.form.name.label"
+msgstr "Nom"
+
+msgid "organization.create.dialog.form.name.placeholder"
+msgstr "par example Linguallo"
+
+msgid "organization.create.dialog.form.cta.cancel"
+msgstr "Annuler"
+
+msgid "organization.create.dialog.form.cta.create"
+msgstr "Créer "
+
+msgid "member.page.subtitle.about"
+msgstr "À propos"
+
+msgid "member.page.view.name"
+msgstr "Nom"
+
+msgid "member.page.view.username"
+msgstr "Nom d'utilisateur"
+
+msgid "member.page.view.email"
+msgstr "Email"
+
+msgid "member.page.view.bio"
+msgstr "Au propos de vous"
+
+msgid "member.page.view.cta.change-profile"
+msgstr "Changer de profile..."
+
+msgid "member.page.view.cta.change-password"
+msgstr "Changer le mot de passe..."
+
+msgid "member.page.view.cta.change-email"
+msgstr "Changer l'email"
+
+msgid "member.page.subtitle.account"
+msgstr "Compte"
+
+msgid "member.page.error.not-found.title"
+msgstr "Membre introuvable"
+
+msgid "member.page.error.not-found.text"
+msgstr ""
+"Ce lien de membre est invalide. Si quelqu'un vous a donné ce lien, veuillez "
+"vérifier avec eux de vous renvoyer le lien correct."
+
+msgid "member.page.error.forbidden.title"
+msgstr "Interdit."
+
+msgid "member.page.error.forbidden.text"
+msgstr "Pour pouvoir voir ce membre, s'il vous plaît %1$s."
+
+msgid "member.page.error.forbidden.text-link"
+msgstr "S'identifier"
+
+msgid "member.page.change-email.form.title"
+msgstr "Changer l'email"
+
+msgid "member.page.change-email.form.error.EMAIL_TAKEN"
+msgstr "Email déjà utilisé"
+
+msgid "member.page.change-email.form.email.label"
+msgstr "Nouvelle email adresse"
+
+msgid "member.page.change-email.form.cta.send"
+msgstr "Envoyer un email de confirmation"
+
+msgid "member.page.change-password.form.title"
+msgstr "Changer le mot de passe"
+
+msgid "member.page.change-password.form.error.PASSWORDS_MISSMATCH"
+msgstr "Non concordance des mots de passe"
+
+msgid "member.page.change-password.form.error.INVALID_PASSWORD"
+msgstr "Mot de passe invalide"
+
+msgid "member.page.change-password.form.password.label"
+msgstr "Mot de passe"
+
+msgid "member.page.change-password.form.new-password.label"
+msgstr "Nouveau mot de passe"
+
+msgid "member.page.change-password.form.confirm-password.label"
+msgstr "Nouveau mot de passe (confirmer)"
+
+msgid "member.page.change-password.form.cta.save"
+msgstr "Enregistrer"
+
+msgid "member.page.change-profile.form.title"
+msgstr "Changer de profile"
+
+msgid "member.page.change-profile.form.error.USERNAME_EXISTS"
+msgstr "Ce nom d'utilisateur existe déjà"
+
+msgid "member.page.change-profile.form.name.label"
+msgstr "Nom"
+
+msgid "member.page.change-profile.form.username.label"
+msgstr "Nom d'utilisateur"
+
+msgid "member.page.change-profile.form.bio.label"
+msgstr "Au propos de vous"
+
+msgid "member.page.change-profile.form.cta.save"
+msgstr "Enregister"
+
+msgid "organization.delete.dialog.header"
+msgstr "Supprimer l'organisation"
+
+msgid "organization.delete.dialog.msg"
+msgstr ""
+"Êtes-vous sûr de vouloir supprimer l'organisation %1$s? Toutes les données "
+"seront perdues."
+
+msgid "organization.delete.dialog.cta.cancel"
+msgstr "Annuler"
+
+msgid "organization.delete.dialog.cta.delete"
+msgstr "Effacer"
+
+msgid "organization.page.error.not-found.title"
+msgstr "Organisation non trouvée."
+
+msgid "organization.page.error.not-found.text"
+msgstr ""
+"Ce lien d'organisation n'est pas valide. Si quelqu'un vous a donné ce lien, "
+"veuillez vérifier avec eux de vous renvoyer le lien correct."
+
+msgid "organization.page.error.forbidden.title"
+msgstr "Interdit."
+
+msgid "organization.page.error.forbidden.text"
+msgstr "Pour pouvoir accéder à l'organisation, veuillez %1$s."
+
+msgid "organization.page.error.forbidden.text-link"
+msgstr "S'identifier"
+
+msgid "organization.page.view.website"
+msgstr "Site Internet"
+
+msgid "organization.page.view.msg.no-website"
+msgstr "Pas de Site Internet"
+
+msgid "organization.page.view.bio"
+msgstr "Au propos de vous"
+
+msgid "organization.page.view.cta.edit-organization"
+msgstr "Modifier l'organisation..."
+
+msgid "organization.page.spreadsheets.title"
+msgstr "Feuilles"
+
+msgid "organization.page.projects.title"
+msgstr "Projets"
+
+msgid "organization.page.members.title"
+msgstr "Membres"
+
+msgid "organization.page.settings.title"
+msgstr "Paramétres"
+
+msgid "organization.page.edit-organization.form.title"
+msgstr "Modifier les détails"
+
+msgid "organization.page.edit-organization.form.error.SHORTNAME_EXISTS"
+msgstr "Le nom abrégé existe déjà"
+
+msgid "organization.page.edit-organization.form.name.label"
+msgstr "Nom"
+
+msgid "organization.page.edit-organization.form.shortname.label"
+msgstr "Le nom abrégé "
+
+msgid "organization.page.edit-organization.form.bio.label"
+msgstr "Au propos de vous"
+
+msgid "organization.page.edit-organization.form.website.label"
+msgstr "Site Internet"
+
+msgid "organization.page.edit-organization.form.cta.save"
+msgstr "Enrigester"
+
+msgid "organization.page.spreadsheets.msg.no-spreadsheets"
+msgstr "Pas de feuilles d'organisation"
+
+msgid "organization.page.projects.msg.no-projects"
+msgstr "Pas de projets d'organisations"
+
+msgid "organization.page.settings.cta.delete"
+msgstr "Supprimer cette organisation?"
+
+msgid "organization.page.members.form.filter.label"
+msgstr "Filtre"
+
+msgid "organization.page.members.list.member.status.VIRTUAL"
+msgstr "Virtuel"
+
+msgid "organization.page.members.list.member.role.OWNER"
+msgstr "Propriétaire"
+
+msgid "organization.page.members.list.member.role.ADMIN"
+msgstr "Admin"
+
+msgid "organization.page.members.list.member.role.MEMBER"
+msgstr "Membre"
+
+msgid "organization.page.members.list.member.remove"
+msgstr "Retirer"
+
+msgid "organization.page.members.list.member.leave"
+msgstr "Partir"
+
+msgid "organization.page.members.change-permission.menu.title"
+msgstr "Changer les permissions"
+
+msgid "organization.page.members.change-permission.menu.error.last-owner"
+msgstr ""
+"Vous ne pouvez pas changer de rôle car il doit y avoir au moins un "
+"propriétaire."
+
+msgid "organization.page.members.change-permission.menu.owner.title"
+msgstr "Propriétaire"
+
+msgid "organization.page.members.change-permission.menu.owner.text"
+msgstr "Accès illimité, y compris la suppression de l'organisation."
+
+msgid "organization.page.members.change-permission.menu.admin.title"
+msgstr "Admin"
+
+msgid "organization.page.members.change-permission.menu.admin.text"
+msgstr "Peut voir et éditer l'organisation et créer des feuilles."
+
+msgid "organization.page.members.change-permission.menu.member.title"
+msgstr "Membre"
+
+msgid "organization.page.members.change-permission.menu.member.text"
+msgstr ""
+"Peut seulement voir l'organisation et rejoindre les feuilles d'organisation "
+"ou les projet"
+
+msgid "organization.page.members.remove-member.menu.title"
+msgstr "Retirer un membre"
+
+msgid "organization.page.members.remove-member.menu.remove.title"
+msgstr "Retirer de l'organisation"
+
+msgid "organization.page.members.remove-member.menu.remove.text"
+msgstr "Supprimez tout accès à l'organisation. Ils recevront une notification."
+
+msgid "organization.page.members.leave.menu.title"
+msgstr "Partir"
+
+msgid "organization.page.members.leave.menu.error.last-owner"
+msgstr "Vous ne pouvez pas partir car il doit y avoir au moins un propriétaire."
+
+msgid "organization.page.members.leave.menu.leave.title"
+msgstr "Quitter l'organisation"
+
+msgid "organization.page.members.leave.menu.leave.text"
+msgstr "Si vous quittez l’organisation, vous en perdrez l’accès."
+
+msgid "organization.page.members.invite.cta.invite"
+msgstr "Inviter"
+
+msgid "organization.page.members.invite.form.title"
+msgstr "Inviter"
+
+msgid "organization.page.members.invite.form.cta.send"
+msgstr "Envoyer une invitation"
+
+msgid "organization.page.members.invite.form.list.label"
+msgstr "Inviter un membre"
+
+msgid "organization.page.members.invite.form.message.label"
+msgstr "Message"
+
+msgid "organization.page.members.invite.form.option.normal"
+msgstr "<b>%1$s</b><small> @%2$s</small>"
+
+msgid "organization.page.members.invite.form.option.invited"
+msgstr "<b>%1$s</b><small> @%2$s - Invité </small>"
+
+msgid "organization.page.members.invite.form.option.joined"
+msgstr "<b>%1$s</b><small> @%2$s - Rejoint </small>"
+
+msgid "home.spreadsheets.section.personal.title"
+msgstr "Feuilles personnelles"
+
+msgid "home.spreadsheets.section.organization.menu.spreadsheets"
+msgstr "Feuilles"
+
+msgid "home.spreadsheets.section.organization.menu.projects"
+msgstr "Projets"
+
+msgid "home.spreadsheets.section.organization.menu.members"
+msgstr "Membres"
+
+msgid "home.spreadsheets.section.organization.menu.settings"
+msgstr "Paramètres"
+
+msgid "home.projects.section.personal.title"
+msgstr "Projets personnels"
+
+msgid "home.projects.section.personal.msg.no-projects"
+msgstr "Pas de projets personnels"
+
+msgid "home.projects.section.organization.menu.spreadsheets"
+msgstr "Feuilles"
+
+msgid "home.projects.section.organization.menu.projects"
+msgstr "Projets"
+
+msgid "home.projects.section.organization.menu.members"
+msgstr "Membres"
+
+msgid "home.projects.section.organization.menu.settings"
+msgstr "Paramètres"
+
+msgid "spreadsheet.main.permissions.menu.title"
+msgstr "Changer la permission"
+
+msgid "spreadsheet.main.permissions.menu.private.title"
+msgstr "Privée"
+
+msgid "spreadsheet.main.permissions.menu.private.text"
+msgstr "Seuls les membres de la cette feuille peuvent voir et éditer cette feuille,"
+
+msgid "spreadsheet.main.permissions.menu.organization.title"
+msgstr "Organisation visible"
+
+msgid "spreadsheet.main.permissions.menu.organization.text"
+msgstr "Tout les membres de l'organisatin peuvent voir et éditer cette feuille."
+
+msgid "spreadsheet.main.permissions.menu.organization.warn"
+msgstr "Cette feuille doit être ajoutée à l'organisation pour l'activer."
+
+msgid "spreadsheet.main.menu.join"
+msgstr "Joindre"
+
+msgid "spreadsheet.main.join.limit.title"
+msgstr "Nombre de membres"
+
+msgid "spreadsheet.main.join.limit.warn"
+msgstr "Nombre maximum de membres est atteint."
+
+msgid "spreadsheet.main.spreadsheet.unsaved-changes"
+msgstr "Modification non enregistrées"
+
+msgid "spreadsheet.main.menu.spreadsheet.rename"
+msgstr "Renommer"
+
+msgid "spreadsheet.main.menu.spreadsheet.delete"
+msgstr "Effacer"
+
+msgid "spreadsheet.main.menu.spreadsheet.about"
+msgstr "À propos"
+
+msgid "spreadsheet.main.menu.spreadsheet.move"
+msgstr "Déménager à..."
+
+msgid "spreadsheet.main.menu.spreadsheet.create-backup"
+msgstr "Créer une sauvegarde"
+
+msgid "spreadsheet.main.menu.spreadsheet.versions"
+msgstr "Les versions"
+
+msgid "spreadsheet.main.menu.spreadsheet.version"
+msgstr "#%1$s - %2$s"
+
+msgid "spreadsheet.main.menu.sheet.create"
+msgstr "Créer une feuille"
+
+msgid "spreadsheet.main.menu.sheet.sheets"
+msgstr "Feuilles"
+
+msgid "spreadsheet.main.menu.sheet.rename"
+msgstr "Renemmer le feuille"
+
+msgid "spreadsheet.main.menu.sheet.delete"
+msgstr "Effacer la feuille"
+
+msgid "spreadsheet.main.menu.sheet.import"
+msgstr "Importation"
+
+msgid "spreadsheet.main.menu.sheet.export-import"
+msgstr "Exportation / Importation"
+
+msgid "spreadsheet.main.menu.sheet.export"
+msgstr "Exportation"
+
+msgid "spreadsheet.main.menu.sheet.export-csv"
+msgstr "Exportation CSV"
+
+msgid "spreadsheet.main.menu.sheet.export-xliff"
+msgstr "Exportation XLIFF"
+
+msgid "spreadsheet.main.menu.sheet.import-csv"
+msgstr "Importation CSV"
+
+msgid "spreadsheet.main.menu.sheet.import-xliff"
+msgstr "Importation XLIFF"
+
+msgid "spreadsheet.main.menu.sheet.xliff"
+msgstr "Xliff"
+
+msgid "spreadsheet.main.menu.sheet.csv"
+msgstr "Csv"
+
+msgid "spreadsheet.main.menu.settings.members"
+msgstr "Membres"
+
+msgid "spreadsheet.main.menu.settings.general"
+msgstr "Générale"
+
+msgid "spreadsheet.main.menu.settings.languages"
+msgstr "Langues"
+
+msgid "spreadsheet.main.menu.settings.environments"
+msgstr "Environnements"
+
+msgid "spreadsheet.main.menu.settings.billing"
+msgstr "Facturation"
+
+msgid "spreadsheet.main.menu.view.projects"
+msgstr "Projets"
+
+msgid "spreadsheet.main.menu.view.requests"
+msgstr "Demandes"
+
+msgid "spreadsheet.main.publisher.title"
+msgstr "Publisher"
+
+msgid "spreadsheet.main.comments.title"
+msgstr "Commentaires"
+
+msgid "spreadsheet.main.sheet.limit.menu.title"
+msgstr "Limite de feuille"
+
+msgid "spreadsheet.main.sheet.limit.menu.upgrade.title"
+msgstr "Plans de mise à niveau"
+
+msgid "spreadsheet.main.sheet.limit.menu.upgrade.text"
+msgstr ""
+"Vous avez atteinnt votre limite de plan, veuillez mettre à niveau pour "
+"permettre l'ajout de feuilles."
+
+msgid "spreadsheet.error.not-found.title"
+msgstr "Feuille non trouvée."
+
+msgid "spreadsheet.error.not-found.text"
+msgstr ""
+"Ce tableur peut être privé. Si quelqu'un vous a fourni ce lien, il peut "
+"être nécessaire qu'il vous invite à l'une de ses feuilles de calcul ou de "
+"ses organisations."
+
+msgid "spreadsheet.sidebar.menu.back"
+msgstr "Retourner"
+
+msgid "spreadsheet.sidebar.menu.general"
+msgstr "Générale"
+
+msgid "spreadsheet.sidebar.menu.languages"
+msgstr "Langues"
+
+msgid "spreadsheet.sidebar.menu.members"
+msgstr "Membres"
+
+msgid "spreadsheet.sidebar.menu.environments"
+msgstr "Environnements"
+
+msgid "spreadsheet.sidebar.menu.projects"
+msgstr "Projets"
+
+msgid "spreadsheet.sidebar.menu.requests"
+msgstr "Demandes"
+
+msgid "spreadsheet.sidebar.menu.billing"
+msgstr "Facturation"
+
+msgid "spreadsheet.settings.return"
+msgstr "Retourner à \"%1$s\""
+
+msgid "spreadsheet.main.sheet.create.menu.title"
+msgstr "Créer "
+
+msgid "spreadsheet.main.sheet.create.menu.project.title"
+msgstr "Projet"
+
+msgid "spreadsheet.main.sheet.create.menu.project.text"
+msgstr ""
+"Ouvre la boîte de dialogue de création de projet. Seuls les propriétaires "
+"et les administrateurs peuvent créer un projet."
+
+msgid "spreadsheet.main.sheet.create.menu.request.title"
+msgstr "Demande"
+
+msgid "spreadsheet.main.sheet.create.menu.request.text"
+msgstr ""
+"Ouvre la boîte de dialogue Créer une demande. Tous les membres de la "
+"feuille de calcul peuvent créer une demande."
+
+msgid "spreadsheet.sheet.table.cta.add"
+msgstr "<i class=\"fas fa-plus\"></i> Ajouter"
+
+msgid "spreadsheet.sheet.table.cta.delete"
+msgstr "Effacer"
+
+msgid "spreadsheet.sheet.table.cta.revert"
+msgstr "Revenir"
+
+msgid "spreadsheet.sheet.table.cta.edit"
+msgstr "Modifier"
+
+msgid "spreadsheet.sheet.table.cta.save"
+msgstr "Enregistrer"
+
+msgid "spreadsheet.sheet.table.row.cta.revert"
+msgstr "Revenir"
+
+msgid "spreadsheet.sheet.table.row.cta.edit"
+msgstr "Modifier"
+
+msgid "spreadsheet.sheet.table.row.cta.delete"
+msgstr "Effacer"
+
+msgid "spreadsheet.sheet.table.cta.actions"
+msgstr "Actes <i class=\"fas fa-caret-down\"></i>"
+
+msgid "spreadsheet.sheet.table.cta.create"
+msgstr "Créer <i class=\"fas fa-caret-down\"></i>"
+
+msgid "spreadsheet.sheet.table.cta.request.merge"
+msgstr "Fussioner"
+
+msgid "spreadsheet.sheet.table.cta.request.update"
+msgstr "Mise à jour"
+
+msgid "spreadsheet.sheet.table.cta.request.cancel"
+msgstr "Annuler"
+
+msgid "spreadsheet.sheet.table.cta.request.decline"
+msgstr "Déclin"
+
+msgid "spreadsheet.sheet.table.thead.id"
+msgstr "ID"
+
+msgid "spreadsheet.sheet.table.thead.description"
+msgstr "La description"
+
+msgid "spreadsheet.sheet.table.thead.status"
+msgstr "Statut"
+
+msgid "spreadsheet.sheet.keys.limit.menu.title"
+msgstr "Feuille limite"
+
+msgid "spreadsheet.sheet.keys.limit.menu.upgrade.title"
+msgstr "Plan de mise à niveau"
+
+msgid "spreadsheet.sheet.keys.limit.menu.upgrade.text"
+msgstr ""
+"Vous avez atteint le nombre maximal de chaînes de traduction  <b>(%1$s)</b> "
+"par feuille pour le plan en cours <b>(%2$s)</b>. Veuillez effectuer la mise "
+"à niveau pour permettre l'ajout de chaînes supplémentaires."
+
+msgid "spreadsheet.sheet.keys.limit.menu.upgrade-max.title"
+msgstr "Plan de mise à niveau"
+
+msgid "spreadsheet.sheet.keys.limit.menu.upgrade-max.text"
+msgstr "Vous avez atteint le nombre maximal de chaînes de traduction par feuille."
+
+msgid "spreadsheet.main.menu.title.menu"
+msgstr "Menu"
+
+msgid "spreadsheet.main.menu.title.file"
+msgstr "Menu fichier"
+
+msgid "spreadsheet.main.menu.title.export-import"
+msgstr "Menu d'exportation / Importation"
+
+msgid "spreadsheet.dialog.about.title"
+msgstr "À propos"
+
+msgid "spreadsheet.dialog.about.view.name"
+msgstr "Nom"
+
+msgid "spreadsheet.dialog.about.view.uuid"
+msgstr "UUID"
+
+msgid "spreadsheet.dialog.about.view.permission"
+msgstr "Autorisation"
+
+msgid "spreadsheet.dialog.about.view.organization"
+msgstr "Organisation"
+
+msgid "spreadsheet.dialog.about.cta.close"
+msgstr "Proche"
+
+msgid "spreadsheet.dialog.rename.title"
+msgstr "Renommer le feuille"
+
+msgid "spreadsheet.dialog.rename.form.name.label"
+msgstr "Nom"
+
+msgid "spreadsheet.dialog.rename.form.cta.rename"
+msgstr "Renommer"
+
+msgid "spreadsheet.dialog.rename.form.cta.cancel"
+msgstr "Annuler"
+
+msgid "spreadsheet.dialog.move.title"
+msgstr "Déplacer la feuille"
+
+msgid "spreadsheet.dialog.move.form.organization.label"
+msgstr "Organisation"
+
+msgid "spreadsheet.dialog.move.form.organization.no-org"
+msgstr "Aucune organisation"
+
+msgid "spreadsheet.dialog.move.form.cta.move"
+msgstr "Déménager"
+
+msgid "spreadsheet.dialog.move.form.cta.cancel"
+msgstr "Annuler"
+
+msgid "spreadsheet.dialog.delete.title"
+msgstr "Effacer la feuille"
+
+msgid "spreadsheet.dialog.delete.form.message"
+msgstr ""
+"Êtes-vous sûr de vouloir supprimer la feuille %1$s? Toutes les données "
+"seront perdues!"
+
+msgid "spreadsheet.dialog.delete.form.text"
+msgstr "Pour pouvoir continuer, veuillez entrer le nom de la feuille."
+
+msgid "spreadsheet.dialog.delete.form.error.NAME_REQUIRED"
+msgstr "Nom incorrect"
+
+msgid "spreadsheet.dialog.delete.form.cta.delete"
+msgstr "Effacer"
+
+msgid "spreadsheet.dialog.delete.form.cta.cancel"
+msgstr "Annuler"
+
+msgid "spreadsheet.sheet.dialog.rename.title"
+msgstr "Renommer la feuille"
+
+msgid "spreadsheet.sheet.dialog.rename.form.name.label"
+msgstr "Nom"
+
+msgid "spreadsheet.sheet.dialog.rename.form.error.DUPLICATE_SHEET_NAME"
+msgstr "La feuille avec ce nom existe déjà"
+
+msgid "spreadsheet.sheet.dialog.rename.form.cta.rename"
+msgstr "Renommer"
+
+msgid "spreadsheet.sheet.dialog.rename.form.cta.cancel"
+msgstr "Annuler"
+
+msgid "spreadsheet.sheet.dialog.delete.title"
+msgstr "Effacer la feuille"
+
+msgid "spreadsheet.sheet.dialog.delete.form.message"
+msgstr ""
+"Êtes-vous sûr de vouloir supprimer la feuille %1$s? Toutes les données "
+"seront perdues!"
+
+msgid "spreadsheet.sheet.dialog.delete.form.cta.delete"
+msgstr "Effacer"
+
+msgid "spreadsheet.sheet.dialog.delete.form.cta.cancel"
+msgstr "Annuler"
+
+msgid "spreadsheet.sheet.dialog.export-xliff.title"
+msgstr "Exportation XLIFF"
+
+msgid "spreadsheet.sheet.dialog.export-xliff.form.cta.generate"
+msgstr "Produire"
+
+msgid "spreadsheet.sheet.dialog.export-xliff.form.cta.close"
+msgstr "Proche"
+
+msgid "spreadsheet.sheet.dialog.export-csv.title"
+msgstr "Exportation CSV"
+
+msgid "spreadsheet.sheet.dialog.export-csv.form.cta.generate"
+msgstr "Produire"
+
+msgid "spreadsheet.sheet.dialog.export-csv.form.cta.close"
+msgstr "Proche"
+
+msgid "spreadsheet.sheet.dialog.import-xliff.title"
+msgstr "Importation XLIFF"
+
+msgid "spreadsheet.sheet.dialog.import-xliff.form.cta.import"
+msgstr "Importation "
+
+msgid "spreadsheet.sheet.dialog.import-xliff.form.cta.close"
+msgstr "Proche"
+
+msgid "spreadsheet.sheet.dialog.import-csv.title"
+msgstr "Importation CSV"
+
+msgid "spreadsheet.sheet.dialog.import-csv.form.cta.import"
+msgstr "Importation"
+
+msgid "spreadsheet.sheet.dialog.import-csv.form.cta.close"
+msgstr "Proche"
+
+msgid "spreadsheet.sheet.dialog.key-form.add.title"
+msgstr "Créer une traduction"
+
+msgid "spreadsheet.sheet.dialog.key-form.edit.title"
+msgstr "Modifier la traduction"
+
+msgid "spreadsheet.sheet.dialog.key-form.error.DUPLICATE_ID"
+msgstr "Cet identifiant existe déjà"
+
+msgid "spreadsheet.sheet.dialog.key-form.error.KEYS_LIMIT"
+msgstr ""
+"Vous avez atteint le nombre maximum de clés dans la feuille. Veuillez "
+"mettre à niveau votre plan pour permettre l'ajout de clés."
+
+msgid "spreadsheet.sheet.dialog.key-form.form.id.label"
+msgstr "ID"
+
+msgid "spreadsheet.sheet.dialog.key-form.form.mode.label"
+msgstr "Modifier l'identifiant (crée une copie)"
+
+msgid "spreadsheet.sheet.dialog.key-form.form.description.label"
+msgstr "La description"
+
+msgid "spreadsheet.sheet.dialog.key-form.form.status.label"
+msgstr "Statut"
+
+msgid "spreadsheet.sheet.dialog.key-form.form.cta.cancel"
+msgstr "Annuler"
+
+msgid "spreadsheet.sheet.dialog.key-form.form.cta.delete"
+msgstr "Effacer"
+
+msgid "spreadsheet.sheet.dialog.key-form.form.cta.update"
+msgstr "Mise à jour"
+
+msgid "spreadsheet.sheet.dialog.key-form.form.cta.revert"
+msgstr "Revenir"
+
+msgid "spreadsheet.sheet.dialog.key-form.form.cta.create"
+msgstr "Créer "
+
+msgid "spreadsheet.sheet.dialog.key-form.form.advanced.title"
+msgstr "Avancé"
+
+msgid "spreadsheet.sheet.dialog.key-form.form.advanced.cta.show-advanced"
+msgstr "Afficher les paramètres avancés"
+
+msgid "spreadsheet.sheet.dialog.key-form.form.advanced.cta.hide-advanced"
+msgstr "Masquer les paramètres avancés"
+
+msgid "spreadsheet.sheet.dialog.key-form.form.advanced.cta.add-param"
+msgstr "Ajouter un paramètre"
+
+msgid "spreadsheet.sheet.dialog.key-form.form.advanced.id.label"
+msgstr "ID"
+
+msgid "spreadsheet.sheet.dialog.key-form.form.advanced.value.label"
+msgstr "Valeur"
+
+msgid "spreadsheet.sheet.dialog.key-form.form.advanced.remove.menu.title"
+msgstr "Retirer"
+
+msgid "spreadsheet.sheet.dialog.key-form.form.advanced.remove.menu.remove.title"
+msgstr "Enlever le paramètre"
+
+msgid "spreadsheet.sheet.dialog.key-form.form.advanced.remove.menu.remove.text"
+msgstr "Il va supprimer le paramètre de langue."
+
+msgid "translation.key.status.NOT_READY"
+msgstr "Pas prêt"
+
+msgid "translation.key.status.READY"
+msgstr "Prêt"
+
+msgid "translation.key.status.CUSTOM"
+msgstr "Sur mesure"
+
+msgid "translation.key.advanced.status.READY"
+msgstr "Prêt"
+
+msgid "translation.key.advanced.status.NOT_READY"
+msgstr "Pas prêt"
+
+msgid "spreadsheet.comments.add.form.message.label"
+msgstr "Message"
+
+msgid "spreadsheet.comments.add.form.cta.post"
+msgstr "Inscrire"
+
+msgid "spreadsheet.comments.na"
+msgstr "N/A"
+
+msgid "spreadsheet.comments.edit.menu.title"
+msgstr "Modifier le commentaire"
+
+msgid "spreadsheet.comments.edit.menu.form.message.label"
+msgstr "Message"
+
+msgid "spreadsheet.comments.edit.menu.form.cta.save"
+msgstr "Enregistrer"
+
+msgid "spreadsheet.sheet.dialog.export-xliff.form.options.label"
+msgstr "Les options"
+
+msgid "spreadsheet.sheet.dialog.export-xliff.form.namespace.label"
+msgstr "Espace de noms"
+
+msgid "spreadsheet.sheet.dialog.export-xliff.form.status.label"
+msgstr "Statut"
+
+msgid "spreadsheet.sheet.dialog.export-xliff.form.field.label"
+msgstr "Champ"
+
+msgid "spreadsheet.sheet.dialog.export-xliff.form.language.label"
+msgstr "Langues"
+
+msgid "spreadsheet.sheet.dialog.export-xliff.form.code.label"
+msgstr "Code"
+
+msgid "spreadsheet.sheet.dialog.export-xliff.form.source.label"
+msgstr "La source"
+
+msgid "spreadsheet.sheet.dialog.export-xliff.form.source.no-lang"
+msgstr "-- Choisir la langue --"
+
+msgid "spreadsheet.sheet.dialog.export-xliff.form.target.label"
+msgstr "L'objectif"
+
+msgid "spreadsheet.sheet.dialog.export-xliff.form.target.no-lang"
+msgstr "-- Choisir la langue --"
+
+msgid "spreadsheet.sheet.dialog.export-csv.form.options.label"
+msgstr "Les options"
+
+msgid "spreadsheet.sheet.dialog.export-csv.form.sheet.label"
+msgstr "Feuille"
+
+msgid "spreadsheet.sheet.dialog.export-csv.form.status.label"
+msgstr "Statut"
+
+msgid "spreadsheet.sheet.dialog.export-csv.form.field.label"
+msgstr "Champ"
+
+msgid "spreadsheet.sheet.dialog.export-csv.form.code.label"
+msgstr "Code"
+
+msgid "spreadsheet.sheet.dialog.export-csv.form.id.label"
+msgstr "ID"
+
+msgid "spreadsheet.sheet.dialog.export-csv.form.description.label"
+msgstr "La description"
+
+msgid "spreadsheet.sheet.dialog.import-xliff.form.sheet.label"
+msgstr "Feuille"
+
+msgid "spreadsheet.sheet.dialog.import-xliff.form.namespace.label"
+msgstr "Espace de noms"
+
+msgid "spreadsheet.sheet.dialog.import-xliff.form.source-target.label"
+msgstr "La source/L'objectif"
+
+msgid "spreadsheet.sheet.dialog.import-xliff.form.language.label"
+msgstr "Langues"
+
+msgid "spreadsheet.sheet.dialog.import-xliff.form.status.label"
+msgstr "Statut"
+
+msgid "spreadsheet.sheet.dialog.import-xliff.form.namespace.no-namespace"
+msgstr "-- Sélectionner un espace de noms --"
+
+msgid "spreadsheet.sheet.dialog.import-xliff.form.field.no-namespace"
+msgstr "-- Sélectionner un champ --"
+
+msgid "spreadsheet.sheet.dialog.import-xliff.form.field.source"
+msgstr "La source (%1$s)"
+
+msgid "spreadsheet.sheet.dialog.import-xliff.form.field.target"
+msgstr "L'objectif (%1$s)"
+
+msgid "spreadsheet.sheet.dialog.import-csv.form.id.label"
+msgstr "ID"
+
+msgid "spreadsheet.sheet.dialog.import-csv.form.id.no-field"
+msgstr "-- Sélectionner un champ --"
+
+msgid "spreadsheet.sheet.dialog.import-csv.form.description.label"
+msgstr "La description"
+
+msgid "spreadsheet.sheet.dialog.import-csv.form.description.no-field"
+msgstr "-- Sélectionner un champ --"
+
+msgid "spreadsheet.sheet.dialog.import-csv.form.language.no-field"
+msgstr "-- Sélectionner un champ --"
+
+msgid "spreadsheet.sheet.dialog.import-csv.form.status.label"
+msgstr "Statut"
+
+msgid "translation.key.status.ALL"
+msgstr "Tous"
+
+msgid "translation.key.status.SELECTED"
+msgstr "Sélectionnés"
+
+msgid "spreadsheet.main.menu.sheet.duplicate"
+msgstr "Dupliquer la feuille"
+
+msgid "spreadsheet.settings.general.about.subtitle"
+msgstr "À propos"
+
+msgid "spreadsheet.settings.general.about.view.uuid.label"
+msgstr "UUID"
+
+msgid "spreadsheet.settings.general.about.view.created-at.label"
+msgstr "Créer à"
+
+msgid "spreadsheet.settings.general.about.view.organization.label"
+msgstr "Organisation"
+
+msgid "spreadsheet.settings.general.about.view.permission.label"
+msgstr "Les permissions"
+
+msgid "spreadsheet.settings.general.about.cta.rename"
+msgstr "Renommer la feuille"
+
+msgid "spreadsheet.settings.general.about.cta.move"
+msgstr "Déménager à"
+
+msgid "spreadsheet.settings.general.about.cta.delete"
+msgstr "Effacer la feuille"
+
+msgid "spreadsheet.settings.environments.limit.upgrade.msg"
+msgstr ""
+"Le nombre maximum d’environnements atteints, veuillez %1$s activer cette "
+"fonctionnalité!"
+
+msgid "spreadsheet.settings.environments.limit.upgrade.link"
+msgstr "AMÉLIORER"
+
+msgid "spreadsheet.settings.environments.limit.upgrade-max.msg"
+msgstr "Nombre maximum d'environnements atteints!"
+
+msgid "spreadsheet.settings.environments.title"
+msgstr "Environnements"
+
+msgid "spreadsheet.settings.environments.cta.add"
+msgstr "Ajouter "
+
+msgid "spreadsheet.settings.environments.menu.add.title"
+msgstr "Ajouter un environnement"
+
+msgid ""
+"spreadsheet.settings.environments.menu.add.form.error.TEST_ENVIRONMENT_"
+"FAILURE"
+msgstr "Les informations d'identification invalides"
+
+msgid ""
+"spreadsheet.settings.environments.menu.add.form.error.CREATE_ENVIRONMENT_"
+"FAILURE"
+msgstr "Les informations d'identification invalides"
+
+msgid ""
+"spreadsheet.settings.environments.menu.add.form.success.TEST_ENVIRONMENT_"
+"SUCCESS"
+msgstr "Test réussite"
+
+msgid "spreadsheet.settings.environments.menu.add.form.type.label"
+msgstr "Taper"
+
+msgid "spreadsheet.settings.environments.menu.add.form.type.options.S3"
+msgstr "AWS S3"
+
+msgid "spreadsheet.settings.environments.menu.add.form.name.label"
+msgstr "Nom"
+
+msgid "spreadsheet.settings.environments.menu.add.form.bucket.label"
+msgstr "Seau"
+
+msgid "spreadsheet.settings.environments.menu.add.form.region.label"
+msgstr "Région"
+
+msgid "spreadsheet.settings.environments.menu.add.form.path.label"
+msgstr "Chemin"
+
+msgid "spreadsheet.settings.environments.menu.add.form.access-key-id.label"
+msgstr "Clé d'accès ID"
+
+msgid "spreadsheet.settings.environments.menu.add.form.secret-access-key.label"
+msgstr "Clé d'accès secrète"
+
+msgid "spreadsheet.settings.environments.menu.add.form.cta.test"
+msgstr "Test"
+
+msgid "spreadsheet.settings.environments.menu.add.form.cta.save"
+msgstr "Enregistrer"
+
+msgid "spreadsheet.settings.environments.no-environments"
+msgstr "Il n'y a pas d'environnement"
+
+msgid "spreadsheet.settings.environments.menu.edit.title"
+msgstr "Environnement d'édition"
+
+msgid ""
+"spreadsheet.settings.environments.menu.edit.form.error.TEST_ENVIRONMENT_"
+"FAILURE"
+msgstr "Les informations d'identification invalides"
+
+msgid ""
+"spreadsheet.settings.environments.menu.edit.form.error.CREATE_ENVIRONMENT_"
+"FAILURE"
+msgstr "Les informations d'identification invalides"
+
+msgid ""
+"spreadsheet.settings.environments.menu.edit.form.success.TEST_ENVIRONMENT_"
+"SUCCESS"
+msgstr "Test réussite"
+
+msgid "spreadsheet.settings.environments.menu.edit.form.name.label"
+msgstr "Nom"
+
+msgid "spreadsheet.settings.environments.menu.edit.form.bucket.label"
+msgstr "Seau"
+
+msgid "spreadsheet.settings.environments.menu.edit.form.region.label"
+msgstr "Région"
+
+msgid "spreadsheet.settings.environments.menu.edit.form.path.label"
+msgstr "Chemin"
+
+msgid "spreadsheet.settings.environments.menu.edit.form.access-key-id.label"
+msgstr "Clé d'accès ID"
+
+msgid "spreadsheet.settings.environments.menu.edit.form.secret-access-key.label"
+msgstr "Clé d'accès secrète"
+
+msgid "spreadsheet.settings.environments.menu.edit.form.cta.test"
+msgstr "Tester"
+
+msgid "spreadsheet.settings.environments.menu.edit.form.cta.update"
+msgstr "Mise à jour"
+
+msgid "spreadsheet.settings.environments.menu.remove.title"
+msgstr "Retirer"
+
+msgid "spreadsheet.settings.environments.menu.remove.menu.title"
+msgstr "Enlever l'environnement"
+
+msgid "spreadsheet.settings.environments.menu.remove.menu.text"
+msgstr ""
+"Cela supprimera l'environnement et tous les déploiements sur ces "
+"environnements."
+
+msgid "spreadsheet.settings.languages.limit.upgrade.msg"
+msgstr ""
+"Nombre maximal de langues atteintes, veuillez %1$s activer cette "
+"fonctionnalité!"
+
+msgid "spreadsheet.settings.languages.limit.upgrade.link"
+msgstr "AMÉLIORER"
+
+msgid "spreadsheet.settings.languages.title"
+msgstr "Langues"
+
+msgid "spreadsheet.settings.languages.cta.add"
+msgstr "Ajouter"
+
+msgid "spreadsheet.settings.languages.menu.add.title"
+msgstr "Ajouter la langue"
+
+msgid "spreadsheet.settings.languages.menu.add.form.error.DUPLICATE_LANGUAGE_CODE"
+msgstr "Code en double"
+
+msgid "spreadsheet.settings.languages.menu.add.form.name.label"
+msgstr "Nom"
+
+msgid "spreadsheet.settings.languages.menu.add.form.code.label"
+msgstr "Code"
+
+msgid "spreadsheet.settings.languages.menu.add.form.mode.label"
+msgstr "Mode"
+
+msgid "spreadsheet.settings.languages.menu.add.form.fallbacks.label"
+msgstr "Les replis"
+
+msgid "spreadsheet.settings.languages.menu.add.form.cta.save"
+msgstr "Enregistrer"
+
+msgid "spreadsheet.settings.languages.menu.edit.title"
+msgstr "Modifier la langue"
+
+msgid "spreadsheet.settings.languages.menu.edit.form.error.DUPLICATE_LANGUAGE_CODE"
+msgstr "Code en double"
+
+msgid "spreadsheet.settings.languages.menu.edit.form.name.label"
+msgstr "Nom"
+
+msgid "spreadsheet.settings.languages.menu.edit.form.code.label"
+msgstr "Code"
+
+msgid "spreadsheet.settings.languages.menu.edit.form.mode.label"
+msgstr "Mode"
+
+msgid "spreadsheet.settings.languages.menu.edit.form.fallbacks.label"
+msgstr "Les replis"
+
+msgid "spreadsheet.settings.languages.menu.edit.form.cta.save"
+msgstr "Enregistrer"
+
+msgid "spreadsheet.settings.languages.menu.remove.title"
+msgstr "Retirer"
+
+msgid "spreadsheet.settings.languages.menu.remove.menu.title"
+msgstr "Enlever la langue"
+
+msgid "spreadsheet.settings.languages.menu.remove.menu.text"
+msgstr ""
+"Cela supprimera le contenu linguistique et affectera les demandes et les "
+"projets ouverts."
+
+msgid "languages.mode.LTR"
+msgstr "De gauche à droite"
+
+msgid "languages.mode.RTL"
+msgstr "De droite à gauche"
+
+msgid "tech.page.title"
+msgstr "Technologie"
+
+msgid "spreadsheet.settings.environments.item.title"
+msgstr "%1$s - <b>%2$s</b>"
+
+msgid "spreadsheet.settings.languages.item.title"
+msgstr "%1$s - <b>%2$s</b>"
+
+msgid "spreadsheet.settings.languages.item.subtitle"
+msgstr "%1$s - Les replis: %2$s"
+
+msgid "spreadsheet.settings.members.title"
+msgstr "Membre"
+
+msgid "spreadsheet.settings.members.filter.label"
+msgstr "Filtre"
+
+msgid "spreadsheet.settings.members.item.VIRTUAL"
+msgstr "Virtuel"
+
+msgid "spreadsheet.settings.members.item.OWNER"
+msgstr "Propriétaire"
+
+msgid "spreadsheet.settings.members.item.ADMIN"
+msgstr "Admin"
+
+msgid "spreadsheet.settings.members.item.MEMBER"
+msgstr "Membre"
+
+msgid "spreadsheet.settings.members.limit.upgrade.msg"
+msgstr ""
+"\n"
+"Nombre maximal de membres atteints, veuillez %1$s activer cette "
+"fonctionnalité!"
+
+msgid "spreadsheet.settings.members.limit.upgrade.link"
+msgstr "Améliorer"
+
+msgid "spreadsheet.settings.members.item.remove"
+msgstr "Retirer"
+
+msgid "spreadsheet.settings.members.item.leave"
+msgstr "Laisser"
+
+msgid "spreadsheet.settings.members.change-permission.menu.title"
+msgstr "Changer les permissions"
+
+msgid "spreadsheet.settings.members.change-permission.menu.error.last-owner"
+msgstr ""
+"Vous ne pouvez pas changer de rôle car il doit y avoir au moins un "
+"propriétaire."
+
+msgid "spreadsheet.settings.members.change-permission.menu.owner.title"
+msgstr "Propriétaire"
+
+msgid "spreadsheet.settings.members.change-permission.menu.owner.text"
+msgstr "Accès illimité, y compris la suppression de la feuille."
+
+msgid "spreadsheet.settings.members.change-permission.menu.admin.title"
+msgstr "Admin"
+
+msgid "spreadsheet.settings.members.change-permission.menu.admin.text"
+msgstr ""
+"Peut afficher et modifier une feuille de calcul, fusionner des demandes, "
+"créer des projets, fusionner des projets, créer et supprimer des versions, "
+"publier et annuler la publication des versions."
+
+msgid "spreadsheet.settings.members.change-permission.menu.member.title"
+msgstr "Membre"
+
+msgid "spreadsheet.settings.members.change-permission.menu.member.text"
+msgstr "Peut afficher une feuille de calcul et créer des demandes."
+
+msgid "spreadsheet.settings.members.remove-member.menu.title"
+msgstr "Retirer un membre"
+
+msgid "spreadsheet.settings.members.remove-member.menu.remove.title"
+msgstr "Enlever de feuille"
+
+msgid "spreadsheet.settings.members.remove-member.menu.remove.text"
+msgstr "Supprimer tout accès à la feuille. Ils recevront une notification."
+
+msgid "spreadsheet.settings.members.leave.menu.title"
+msgstr "Laisser"
+
+msgid "spreadsheet.settings.members.leave.menu.error.last-owner"
+msgstr "Vous ne pouvez pas partir car il doit y avoir au moins un propriétaire."
+
+msgid "spreadsheet.settings.members.leave.menu.leave.title"
+msgstr "Laisser feuille"
+
+msgid "spreadsheet.settings.members.leave.menu.leave.text"
+msgstr "Si vous quittez la feuille, vous en perdrez l'accès."
+
+msgid "spreadsheet.settings.members.invite.cta.invite"
+msgstr "Inviter"
+
+msgid "spreadsheet.settings.members.invite.form.title"
+msgstr "Inviter"
+
+msgid "spreadsheet.settings.members.invite.form.cta.send"
+msgstr "Envoyer une invitation"
+
+msgid "spreadsheet.settings.members.invite.form.list.label"
+msgstr "Inviter un membre"
+
+msgid "spreadsheet.settings.members.invite.form.message.label"
+msgstr "Mesage"
+
+msgid "spreadsheet.settings.members.invite.limit.msg"
+msgstr ""
+"\n"
+"Nombre maximum de membres atteints."
+
+msgid "spreadsheet.settings.members.invite.form.option.normal"
+msgstr "<b>%1$s</b><small> @%2$s</small>"
+
+msgid "spreadsheet.settings.members.invite.form.option.invited"
+msgstr "<b>%1$s</b><small> @%2$s - Invité </small>"
+
+msgid "spreadsheet.settings.members.invite.form.option.joined"
+msgstr "<b>%1$s</b><small> @%2$s - Rejoint </small>"
+
+msgid "spreadsheet.publisher.title"
+msgstr "Publisher"
+
+msgid "spreadsheet.publisher.builds.title"
+msgstr "Construit"
+
+msgid "spreadsheet.publisher.deployments.title"
+msgstr "Déploiements"
+
+msgid "spreadsheet.publisher.builds.cta.create"
+msgstr "Créer "
+
+msgid "spreadsheet.publisher.builds.create.title"
+msgstr "Créer une construction"
+
+msgid "spreadsheet.publisher.builds.create.form.sheet.label"
+msgstr "Feuilles"
+
+msgid "spreadsheet.publisher.builds.create.form.values.label"
+msgstr "Valeurs"
+
+msgid "spreadsheet.publisher.builds.create.form.file-type.label"
+msgstr "Type de fichier"
+
+msgid "spreadsheet.publisher.builds.create.form.file-type.placeholder"
+msgstr "Type de fichier"
+
+msgid "spreadsheet.publisher.builds.create.form.languages.label"
+msgstr "Langues"
+
+msgid "spreadsheet.publisher.builds.create.form.languages.placeholder"
+msgstr "Langues"
+
+msgid "spreadsheet.publisher.builds.create.form.cta.cancel"
+msgstr "Annuler"
+
+msgid "spreadsheet.publisher.builds.create.form.cta.build"
+msgstr "Construire"
+
+msgid "spreadsheet.publisher.builds.no-builds"
+msgstr "Il n'y a pas de construction pour cette feuille"
+
+msgid "spreadsheet.publisher.builds.item.version"
+msgstr "Construire des versions"
+
+msgid "spreadsheet.publisher.builds.item.created-at"
+msgstr "Créé à"
+
+msgid "spreadsheet.publisher.builds.item.actions"
+msgstr "Actes"
+
+msgid "spreadsheet.publisher.builds.item.cta.download.tooltip"
+msgstr "Télécharger la construction %1$s"
+
+msgid "spreadsheet.publisher.builds.item.cta.publish.tooltip"
+msgstr "Publier la construction %1$s"
+
+msgid "spreadsheet.publisher.builds.item.cta.publish.menu.title"
+msgstr "Publier"
+
+msgid "spreadsheet.publisher.builds.item.cta.publish.menu.form.mode.label"
+msgstr "Mode"
+
+msgid "spreadsheet.publisher.builds.item.cta.publish.menu.form.cta.publish"
+msgstr "Publier"
+
+msgid "spreadsheet.publisher.builds.item.cta.delete.tooltip"
+msgstr "Supprimer la construction %1$s"
+
+msgid "spreadsheet.publisher.builds.item.cta.delete.menu.title"
+msgstr "Retirer"
+
+msgid "spreadsheet.publisher.builds.item.cta.delete.menu.remove.title"
+msgstr "Enlever la construction"
+
+msgid "spreadsheet.publisher.builds.item.cta.delete.menu.remove.description"
+msgstr "Il supprimera la construction et ses fichiers."
+
+msgid "spreadsheet.publisher.environments.no-env.title"
+msgstr "Il n'y a aucun environnement pour cette feuille."
+
+msgid "spreadsheet.publisher.environments.no-env.owner-subtitle"
+msgstr ""
+"Vous pouvez commencer à les ajouter en vous rendant dans les %1$s "
+"paramètres."
+
+msgid "spreadsheet.publisher.environments.no-env.owner-subtitle-link"
+msgstr "Environments"
+
+msgid "spreadsheet.publisher.environments.no-env.subtitle"
+msgstr ""
+"Contactez le propriétaire de la feuille de calcul pour ajouter un "
+"environnement."
+
+msgid "spreadsheet.publisher.environments.item.environment"
+msgstr "Environments"
+
+msgid "spreadsheet.publisher.environments.item.version"
+msgstr "Version de construction"
+
+msgid "spreadsheet.publisher.environments.item.deployed-at"
+msgstr "Déployé à"
+
+msgid "spreadsheet.publisher.environments.item.actions"
+msgstr "Actes"
+
+msgid "spreadsheet.publisher.environments.item.cta.deploy.tooltip"
+msgstr "Déployer la construction"
+
+msgid "spreadsheet.publisher.environments.item.cta.deploy.menu.title"
+msgstr "Déployer"
+
+msgid "spreadsheet.publisher.environments.item.cta.deploy.menu.form.build.label"
+msgstr "Construire"
+
+msgid "spreadsheet.publisher.environments.item.cta.deploy.menu.form.build.option"
+msgstr "-- Sélectionner la construction --"
+
+msgid "spreadsheet.publisher.environments.item.cta.deploy.menu.form.cta.deploy"
+msgstr "Déployer"
+
+msgid "spreadsheet.publisher.environments.item.cta.unpublish.tooltip"
+msgstr "Dépublier l'environnement"
+
+msgid "spreadsheet.publisher.environments.item.cta.unpublish.menu.title"
+msgstr "Annuler la publication"
+
+msgid "spreadsheet.publisher.environments.item.cta.unpublish.remove.title"
+msgstr "Dépublier l'environnement"
+
+msgid "spreadsheet.publisher.environments.item.cta.unpublish.remove.description"
+msgstr "Cela supprimera les fichiers de l'environnement."
+
+msgid "spreadsheet.filter.menu.title"
+msgstr "Filtre"
+
+msgid "spreadsheet.filter.menu.cta.cancel"
+msgstr "Annuler"
+
+msgid "spreadsheet.filter.menu.cta.apply"
+msgstr "Appliquer"
+
+msgid "spreadsheet.filter.menu.cta.reset"
+msgstr "Réinitialiser"
+
+msgid "spreadsheet.filter.menu.table.columns"
+msgstr "Des collones"
+
+msgid "spreadsheet.filter.menu.table.value"
+msgstr "Valeur"
+
+msgid "spreadsheet.view.requests.title"
+msgstr "Demandes"
+
+msgid "spreadsheet.view.requests.status.label"
+msgstr "Statut"
+
+msgid "spreadsheet.view.requests.status.MERGED"
+msgstr "Fusionné"
+
+msgid "spreadsheet.view.requests.status.OPEN"
+msgstr "Ouvrir"
+
+msgid "spreadsheet.view.requests.status.DECLINED"
+msgstr "Diminué"
+
+msgid "spreadsheet.view.no-req"
+msgstr "Il n'y a pas de %1$s demandes."
+
+msgid "spreadsheet.view.cta.back"
+msgstr "Retour"
+
+msgid "spreadsheet.view.cta.view"
+msgstr "Vue"
+
+msgid "spreadsheet.view.cta.re-open"
+msgstr "Rouvrir"
+
+msgid "spreadsheet.view.cta.merge"
+msgstr "Fusionner"
+
+msgid "spreadsheet.view.cta.decline"
+msgstr "Déclin"
+
+msgid "spreadsheet.view.form.title.label"
+msgstr "Titre"
+
+msgid "spreadsheet.view.form.created-by.label"
+msgstr "Créé par"
+
+msgid "spreadsheet.view.form.updated-at.label"
+msgstr "Mis à jour à"
+
+msgid "spreadsheet.view.form.status.label"
+msgstr "Statut"
+
+msgid "spreadsheet.view.form.description.label"
+msgstr "La description"
+
+msgid "spreadsheet.view.form.description.no-description"
+msgstr "Pas des description"
+
+msgid "spreadsheet.dialog.request-create.title"
+msgstr "Créer une demande"
+
+msgid "spreadsheet.dialog.request-create.form.title.label"
+msgstr "Titre"
+
+msgid "spreadsheet.dialog.request-create.form.description.label"
+msgstr "La description"
+
+msgid "spreadsheet.dialog.request-create.form.cta.create"
+msgstr "Créer"
+
+msgid "spreadsheet.dialog.request-create.form.cta.cancel"
+msgstr "Annuler"
+
+msgid "spreadsheet.dialog.request-merge.title"
+msgstr "Demande de fusion"
+
+msgid "spreadsheet.dialog.request-merge.form.message"
+msgstr "Êtes-vous sûr de vouloir fusionner la demande <b>%1$s</b>?"
+
+msgid "spreadsheet.dialog.request-merge.form.cta.merge"
+msgstr "Fussioner"
+
+msgid "spreadsheet.dialog.request-merge.form.cta.cancel"
+msgstr "Annuler"
+
+msgid "spreadsheet.file-list.helper.cta"
+msgstr "Vous pouvez commencer par ajouter une nouvelle feuille"

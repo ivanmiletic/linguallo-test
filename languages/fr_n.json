@@ -1,0 +1,1823 @@
+{
+  "spreadsheet": {
+    "main": {
+      "menu": {
+        "file": "french",
+        "view": "View",
+        "upgrade": "Mise à niveau",
+        "publisher": "Publisher",
+        "release-mgmt": "Gestion des versions",
+        "join": "Joindre",
+        "spreadsheet": {
+          "rename": "Renommer",
+          "delete": "Effacer",
+          "about": "À propos",
+          "move": "Déménager à...",
+          "create-backup": "Créer une sauvegarde",
+          "versions": "Les versions",
+          "version": "#{{version}} - {{date}}"
+        },
+        "sheet": {
+          "create": "Créer une feuille",
+          "sheets": "Feuilles",
+          "rename": "Renemmer le feuille",
+          "delete": "Effacer la feuille",
+          "import": "Importation",
+          "export-import": "Exportation / Importation",
+          "export": "Exportation",
+          "export-csv": "Exportation CSV",
+          "export-xliff": "Exportation XLIFF",
+          "import-csv": "Importation CSV",
+          "import-xliff": "Importation XLIFF",
+          "xliff": "Xliff",
+          "csv": "Csv",
+          "duplicate": "Dupliquer la feuille"
+        },
+        "settings": {
+          "members": "Membres",
+          "general": "Générale",
+          "languages": "Langues",
+          "environments": "Environnements",
+          "billing": "Facturation"
+        },
+        "title": {
+          "menu": "Menu",
+          "file": "Menu fichier",
+          "export-import": "Menu d'exportation / Importation"
+        }
+      },
+      "permissions": {
+        "ORGANIZATION": "<i class=\"fa fa-users\" aria-hidden=\"true\"></i> Organisation visible",
+        "PRIVATE": "<i class=\"fa fa-lock\" aria-hidden=\"true\"></i> Privé",
+        "menu": {
+          "title": "Changer la permission",
+          "private": {
+            "title": "Privée",
+            "text": "Seuls les membres de la cette feuille peuvent voir et éditer cette feuille,"
+          },
+          "organization": {
+            "title": "Organisation visible",
+            "text": "Tout les membres de l'organisatin peuvent voir et éditer cette feuille.",
+            "warn": "Cette feuille doit être ajoutée à l'organisation pour l'activer."
+          }
+        }
+      },
+      "join": {
+        "limit": {
+          "title": "Nombre de membres",
+          "warn": "Nombre maximum de membres est atteint."
+        }
+      },
+      "spreadsheet": {
+        "unsaved-changes": "Modification non enregistrées"
+      },
+      "publisher": {
+        "title": "Publisher"
+      },
+      "comments": {
+        "title": "Commentaires"
+      },
+      "sheet": {
+        "limit": {
+          "menu": {
+            "title": "Limite de feuille",
+            "upgrade": {
+              "title": "Plans de mise à niveau",
+              "text": "Vous avez atteinnt votre limite de plan, veuillez mettre à niveau pour permettre l'ajout de feuilles."
+            }
+          }
+        },
+        "create": {
+          "menu": {
+            "title": "Créer ",
+            "project": {
+              "title": "Projet",
+              "text": "Ouvre la boîte de dialogue de création de projet. Seuls les propriétaires et les administrateurs peuvent créer un projet."
+            },
+            "request": {
+              "title": "Demande",
+              "text": "Ouvre la boîte de dialogue Créer une demande. Tous les membres de la feuille de calcul peuvent créer une demande."
+            }
+          }
+        }
+      }
+    },
+    "create": {
+      "message": {
+        "success": "Feuille créée"
+      },
+      "dialog": {
+        "header": "Créer une feuille",
+        "form": {
+          "organization": {
+            "label": "Organisation",
+            "no-org": "Pas d'organisation"
+          },
+          "name": {
+            "label": "Nom",
+            "placeholder": "par example Linguallo"
+          },
+          "cta": {
+            "cancel": "Annuler",
+            "create": "Créer "
+          }
+        }
+      }
+    },
+    "request": {
+      "create": {
+        "message": {
+          "success": "Demand créée"
+        }
+      }
+    },
+    "file-list": {
+      "create": {
+        "cta": "Créer une nouvelle feuille"
+      },
+      "helper": {
+        "cta": "Vous pouvez commencer par ajouter une nouvelle feuille"
+      }
+    },
+    "error": {
+      "not-found": {
+        "title": "Feuille non trouvée.",
+        "text": "Ce tableur peut être privé. Si quelqu'un vous a fourni ce lien, il peut être nécessaire qu'il vous invite à l'une de ses feuilles de calcul ou de ses organisations."
+      }
+    },
+    "sidebar": {
+      "menu": {
+        "back": "Retourner",
+        "general": "Générale",
+        "languages": "Langues",
+        "members": "Membres",
+        "environments": "Environnements",
+        "projects": "Projets",
+        "requests": "Demandes",
+        "billing": "Facturation"
+      }
+    },
+    "settings": {
+      "return": "Retourner à \"{{name}}\"",
+      "general": {
+        "about": {
+          "subtitle": "À propos",
+          "view": {
+            "uuid": {
+              "label": "UUID"
+            },
+            "created-at": {
+              "label": "Créer à"
+            },
+            "organization": {
+              "label": "Organisation"
+            },
+            "permission": {
+              "label": "Les permissions"
+            }
+          },
+          "cta": {
+            "rename": "Renommer la feuille",
+            "move": "Déménager à",
+            "delete": "Effacer la feuille"
+          }
+        }
+      },
+      "environments": {
+        "limit": {
+          "upgrade": {
+            "msg": "Le nombre maximum d’environnements atteints, veuillez {{link}} activer cette fonctionnalité!",
+            "link": "AMÉLIORER"
+          },
+          "upgrade-max": {
+            "msg": "Nombre maximum d'environnements atteints!"
+          }
+        },
+        "title": "Environnements",
+        "cta": {
+          "add": "Ajouter "
+        },
+        "menu": {
+          "add": {
+            "title": "Ajouter un environnement",
+            "form": {
+              "error": {
+                "TEST_ENVIRONMENT_FAILURE": "Les informations d'identification invalides",
+                "CREATE_ENVIRONMENT_FAILURE": "Les informations d'identification invalides"
+              },
+              "success": {
+                "TEST_ENVIRONMENT_SUCCESS": "Test réussite"
+              },
+              "type": {
+                "label": "Taper",
+                "options": {
+                  "S3": "AWS S3"
+                }
+              },
+              "name": {
+                "label": "Nom"
+              },
+              "bucket": {
+                "label": "Seau"
+              },
+              "region": {
+                "label": "Région"
+              },
+              "path": {
+                "label": "Chemin"
+              },
+              "access-key-id": {
+                "label": "Clé d'accès ID"
+              },
+              "secret-access-key": {
+                "label": "Clé d'accès secrète"
+              },
+              "cta": {
+                "test": "Test",
+                "save": "Enregistrer"
+              }
+            }
+          },
+          "edit": {
+            "title": "Environnement d'édition",
+            "form": {
+              "error": {
+                "TEST_ENVIRONMENT_FAILURE": "Les informations d'identification invalides",
+                "CREATE_ENVIRONMENT_FAILURE": "Les informations d'identification invalides"
+              },
+              "success": {
+                "TEST_ENVIRONMENT_SUCCESS": "Test réussite"
+              },
+              "name": {
+                "label": "Nom"
+              },
+              "bucket": {
+                "label": "Seau"
+              },
+              "region": {
+                "label": "Région"
+              },
+              "path": {
+                "label": "Chemin"
+              },
+              "access-key-id": {
+                "label": "Clé d'accès ID"
+              },
+              "secret-access-key": {
+                "label": "Clé d'accès secrète"
+              },
+              "cta": {
+                "test": "Tester",
+                "update": "Mise à jour"
+              }
+            }
+          },
+          "remove": {
+            "title": "Retirer",
+            "menu": {
+              "title": "Enlever l'environnement",
+              "text": "Cela supprimera l'environnement et tous les déploiements sur ces environnements."
+            }
+          }
+        },
+        "no-environments": "Il n'y a pas d'environnement",
+        "item": {
+          "title": "{{name}} - <b>{{type}}</b>"
+        }
+      },
+      "languages": {
+        "limit": {
+          "upgrade": {
+            "msg": "Nombre maximal de langues atteintes, veuillez {{link}} activer cette fonctionnalité!",
+            "link": "AMÉLIORER"
+          }
+        },
+        "title": "Langues",
+        "cta": {
+          "add": "Ajouter"
+        },
+        "menu": {
+          "add": {
+            "title": "Ajouter la langue",
+            "form": {
+              "error": {
+                "DUPLICATE_LANGUAGE_CODE": "Code en double"
+              },
+              "name": {
+                "label": "Nom"
+              },
+              "code": {
+                "label": "Code"
+              },
+              "mode": {
+                "label": "Mode"
+              },
+              "fallbacks": {
+                "label": "Les replis"
+              },
+              "cta": {
+                "save": "Enregistrer"
+              }
+            }
+          },
+          "edit": {
+            "title": "Modifier la langue",
+            "form": {
+              "error": {
+                "DUPLICATE_LANGUAGE_CODE": "Code en double"
+              },
+              "name": {
+                "label": "Nom"
+              },
+              "code": {
+                "label": "Code"
+              },
+              "mode": {
+                "label": "Mode"
+              },
+              "fallbacks": {
+                "label": "Les replis"
+              },
+              "cta": {
+                "save": "Enregistrer"
+              }
+            }
+          },
+          "remove": {
+            "title": "Retirer",
+            "menu": {
+              "title": "Enlever la langue",
+              "text": "Cela supprimera le contenu linguistique et affectera les demandes et les projets ouverts."
+            }
+          }
+        },
+        "item": {
+          "title": "{{name}} - <b>{{code}}</b>",
+          "subtitle": "{{mode}} - Les replis: {{fallbacks}}"
+        }
+      },
+      "members": {
+        "title": "Membre",
+        "filter": {
+          "label": "Filtre"
+        },
+        "item": {
+          "VIRTUAL": "Virtuel",
+          "OWNER": "Propriétaire",
+          "ADMIN": "Admin",
+          "MEMBER": "Membre",
+          "remove": "Retirer",
+          "leave": "Laisser"
+        },
+        "limit": {
+          "upgrade": {
+            "msg": "\nNombre maximal de membres atteints, veuillez {{link}} activer cette fonctionnalité!",
+            "link": "Améliorer"
+          }
+        },
+        "change-permission": {
+          "menu": {
+            "title": "Changer les permissions",
+            "error": {
+              "last-owner": "Vous ne pouvez pas changer de rôle car il doit y avoir au moins un propriétaire."
+            },
+            "owner": {
+              "title": "Propriétaire",
+              "text": "Accès illimité, y compris la suppression de la feuille."
+            },
+            "admin": {
+              "title": "Admin",
+              "text": "Peut afficher et modifier une feuille de calcul, fusionner des demandes, créer des projets, fusionner des projets, créer et supprimer des versions, publier et annuler la publication des versions."
+            },
+            "member": {
+              "title": "Membre",
+              "text": "Peut afficher une feuille de calcul et créer des demandes."
+            }
+          }
+        },
+        "remove-member": {
+          "menu": {
+            "title": "Retirer un membre",
+            "remove": {
+              "title": "Enlever de feuille",
+              "text": "Supprimer tout accès à la feuille. Ils recevront une notification."
+            }
+          }
+        },
+        "leave": {
+          "menu": {
+            "title": "Laisser",
+            "error": {
+              "last-owner": "Vous ne pouvez pas partir car il doit y avoir au moins un propriétaire."
+            },
+            "leave": {
+              "title": "Laisser feuille",
+              "text": "Si vous quittez la feuille, vous en perdrez l'accès."
+            }
+          }
+        },
+        "invite": {
+          "cta": {
+            "invite": "Inviter"
+          },
+          "form": {
+            "title": "Inviter",
+            "cta": {
+              "send": "Envoyer une invitation"
+            },
+            "list": {
+              "label": "Inviter un membre"
+            },
+            "message": {
+              "label": "Mesage"
+            },
+            "option": {
+              "normal": "<b>{{name}}</b><small> @{{username}}</small>",
+              "invited": "<b>{{name}}</b><small> @{{username}} - Invité </small>",
+              "joined": "<b>{{name}}</b><small> @{{username}} - Rejoint </small>"
+            }
+          },
+          "limit": {
+            "msg": "\nNombre maximum de membres atteints."
+          }
+        }
+      }
+    },
+    "sheet": {
+      "table": {
+        "cta": {
+          "add": "<i class=\"fas fa-plus\"></i> Ajouter",
+          "delete": "Effacer",
+          "revert": "Revenir",
+          "edit": "Modifier",
+          "save": "Enregistrer",
+          "actions": "Actes <i class=\"fas fa-caret-down\"></i>",
+          "create": "Créer <i class=\"fas fa-caret-down\"></i>",
+          "request": {
+            "merge": "Fussioner",
+            "update": "Mise à jour",
+            "cancel": "Annuler",
+            "decline": "Déclin"
+          }
+        },
+        "row": {
+          "cta": {
+            "revert": "Revenir",
+            "edit": "Modifier",
+            "delete": "Effacer"
+          }
+        },
+        "thead": {
+          "id": "ID",
+          "description": "La description",
+          "status": "Statut"
+        }
+      },
+      "keys": {
+        "limit": {
+          "menu": {
+            "title": "Feuille limite",
+            "upgrade": {
+              "title": "Plan de mise à niveau",
+              "text": "Vous avez atteint le nombre maximal de chaînes de traduction  <b>({{length}})</b> par feuille pour le plan en cours <b>({{limit}})</b>. Veuillez effectuer la mise à niveau pour permettre l'ajout de chaînes supplémentaires."
+            },
+            "upgrade-max": {
+              "title": "Plan de mise à niveau",
+              "text": "Vous avez atteint le nombre maximal de chaînes de traduction par feuille."
+            }
+          }
+        }
+      },
+      "dialog": {
+        "rename": {
+          "title": "Renommer la feuille",
+          "form": {
+            "name": {
+              "label": "Nom"
+            },
+            "error": {
+              "DUPLICATE_SHEET_NAME": "La feuille avec ce nom existe déjà"
+            },
+            "cta": {
+              "rename": "Renommer",
+              "cancel": "Annuler"
+            }
+          }
+        },
+        "delete": {
+          "title": "Effacer la feuille",
+          "form": {
+            "message": "Êtes-vous sûr de vouloir supprimer la feuille {{name}}? Toutes les données seront perdues!",
+            "cta": {
+              "delete": "Effacer",
+              "cancel": "Annuler"
+            }
+          }
+        },
+        "export-xliff": {
+          "title": "Exportation XLIFF",
+          "form": {
+            "cta": {
+              "generate": "Produire",
+              "close": "Proche"
+            },
+            "options": {
+              "label": "Les options"
+            },
+            "namespace": {
+              "label": "Espace de noms"
+            },
+            "status": {
+              "label": "Statut"
+            },
+            "field": {
+              "label": "Champ"
+            },
+            "language": {
+              "label": "Langues"
+            },
+            "code": {
+              "label": "Code"
+            },
+            "source": {
+              "label": "La source",
+              "no-lang": "-- Choisir la langue --"
+            },
+            "target": {
+              "label": "L'objectif",
+              "no-lang": "-- Choisir la langue --"
+            }
+          }
+        },
+        "export-csv": {
+          "title": "Exportation CSV",
+          "form": {
+            "cta": {
+              "generate": "Produire",
+              "close": "Proche"
+            },
+            "options": {
+              "label": "Les options"
+            },
+            "sheet": {
+              "label": "Feuille"
+            },
+            "status": {
+              "label": "Statut"
+            },
+            "field": {
+              "label": "Champ"
+            },
+            "code": {
+              "label": "Code"
+            },
+            "id": {
+              "label": "ID"
+            },
+            "description": {
+              "label": "La description"
+            }
+          }
+        },
+        "import-xliff": {
+          "title": "Importation XLIFF",
+          "form": {
+            "cta": {
+              "import": "Importation ",
+              "close": "Proche"
+            },
+            "sheet": {
+              "label": "Feuille"
+            },
+            "namespace": {
+              "label": "Espace de noms",
+              "no-namespace": "-- Sélectionner un espace de noms --"
+            },
+            "source-target": {
+              "label": "La source/L'objectif"
+            },
+            "language": {
+              "label": "Langues"
+            },
+            "status": {
+              "label": "Statut"
+            },
+            "field": {
+              "no-namespace": "-- Sélectionner un champ --",
+              "source": "La source ({{language}})",
+              "target": "L'objectif ({{language}})"
+            }
+          }
+        },
+        "import-csv": {
+          "title": "Importation CSV",
+          "form": {
+            "cta": {
+              "import": "Importation",
+              "close": "Proche"
+            },
+            "id": {
+              "label": "ID",
+              "no-field": "-- Sélectionner un champ --"
+            },
+            "description": {
+              "label": "La description",
+              "no-field": "-- Sélectionner un champ --"
+            },
+            "language": {
+              "no-field": "-- Sélectionner un champ --"
+            },
+            "status": {
+              "label": "Statut"
+            }
+          }
+        },
+        "key-form": {
+          "add": {
+            "title": "Créer une traduction"
+          },
+          "edit": {
+            "title": "Modifier la traduction"
+          },
+          "error": {
+            "DUPLICATE_ID": "Cet identifiant existe déjà",
+            "KEYS_LIMIT": "Vous avez atteint le nombre maximum de clés dans la feuille. Veuillez mettre à niveau votre plan pour permettre l'ajout de clés."
+          },
+          "form": {
+            "id": {
+              "label": "ID"
+            },
+            "mode": {
+              "label": "Modifier l'identifiant (crée une copie)"
+            },
+            "description": {
+              "label": "La description"
+            },
+            "status": {
+              "label": "Statut"
+            },
+            "cta": {
+              "cancel": "Annuler",
+              "delete": "Effacer",
+              "update": "Mise à jour",
+              "revert": "Revenir",
+              "create": "Créer "
+            },
+            "advanced": {
+              "title": "Avancé",
+              "cta": {
+                "show-advanced": "Afficher les paramètres avancés",
+                "hide-advanced": "Masquer les paramètres avancés",
+                "add-param": "Ajouter un paramètre"
+              },
+              "id": {
+                "label": "ID"
+              },
+              "value": {
+                "label": "Valeur"
+              },
+              "remove": {
+                "menu": {
+                  "title": "Retirer",
+                  "remove": {
+                    "title": "Enlever le paramètre",
+                    "text": "Il va supprimer le paramètre de langue."
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "dialog": {
+      "about": {
+        "title": "À propos",
+        "view": {
+          "name": "Nom",
+          "uuid": "UUID",
+          "permission": "Autorisation",
+          "organization": "Organisation"
+        },
+        "cta": {
+          "close": "Proche"
+        }
+      },
+      "rename": {
+        "title": "Renommer le feuille",
+        "form": {
+          "name": {
+            "label": "Nom"
+          },
+          "cta": {
+            "rename": "Renommer",
+            "cancel": "Annuler"
+          }
+        }
+      },
+      "move": {
+        "title": "Déplacer la feuille",
+        "form": {
+          "organization": {
+            "label": "Organisation",
+            "no-org": "Aucune organisation"
+          },
+          "cta": {
+            "move": "Déménager",
+            "cancel": "Annuler"
+          }
+        }
+      },
+      "delete": {
+        "title": "Effacer la feuille",
+        "form": {
+          "message": "Êtes-vous sûr de vouloir supprimer la feuille {{name}}? Toutes les données seront perdues!",
+          "text": "Pour pouvoir continuer, veuillez entrer le nom de la feuille.",
+          "error": {
+            "NAME_REQUIRED": "Nom incorrect"
+          },
+          "cta": {
+            "delete": "Effacer",
+            "cancel": "Annuler"
+          }
+        }
+      },
+      "request-create": {
+        "title": "Créer une demande",
+        "form": {
+          "title": {
+            "label": "Titre"
+          },
+          "description": {
+            "label": "La description"
+          },
+          "cta": {
+            "create": "Créer",
+            "cancel": "Annuler"
+          }
+        }
+      },
+      "request-merge": {
+        "title": "Demande de fusion",
+        "form": {
+          "message": "Êtes-vous sûr de vouloir fusionner la demande <b>{{name}}</b>?",
+          "cta": {
+            "merge": "Fussioner",
+            "cancel": "Annuler"
+          }
+        }
+      }
+    },
+    "comments": {
+      "add": {
+        "form": {
+          "message": {
+            "label": "Message"
+          },
+          "cta": {
+            "post": "Inscrire"
+          }
+        }
+      },
+      "na": "N/A",
+      "edit": {
+        "menu": {
+          "title": "Modifier le commentaire",
+          "form": {
+            "message": {
+              "label": "Message"
+            },
+            "cta": {
+              "save": "Enregistrer"
+            }
+          }
+        }
+      }
+    },
+    "publisher": {
+      "title": "Publisher",
+      "builds": {
+        "title": "Construit",
+        "cta": {
+          "create": "Créer "
+        },
+        "create": {
+          "title": "Créer une construction",
+          "form": {
+            "sheet": {
+              "label": "Feuilles"
+            },
+            "values": {
+              "label": "Valeurs"
+            },
+            "file-type": {
+              "label": "Type de fichier",
+              "placeholder": "Type de fichier"
+            },
+            "languages": {
+              "label": "Langues",
+              "placeholder": "Langues"
+            },
+            "cta": {
+              "cancel": "Annuler",
+              "build": "Construire"
+            }
+          }
+        },
+        "no-builds": "Il n'y a pas de construction pour cette feuille",
+        "item": {
+          "version": "Construire des versions",
+          "created-at": "Créé à",
+          "actions": "Actes",
+          "cta": {
+            "download": {
+              "tooltip": "Télécharger la construction {{build}}"
+            },
+            "publish": {
+              "tooltip": "Publier la construction {{build}}",
+              "menu": {
+                "title": "Publier",
+                "form": {
+                  "mode": {
+                    "label": "Mode"
+                  },
+                  "cta": {
+                    "publish": "Publier"
+                  }
+                }
+              }
+            },
+            "delete": {
+              "tooltip": "Supprimer la construction {{build}}",
+              "menu": {
+                "title": "Retirer",
+                "remove": {
+                  "title": "Enlever la construction",
+                  "description": "Il supprimera la construction et ses fichiers."
+                }
+              }
+            }
+          }
+        }
+      },
+      "deployments": {
+        "title": "Déploiements"
+      },
+      "environments": {
+        "no-env": {
+          "title": "Il n'y a aucun environnement pour cette feuille.",
+          "owner-subtitle": "Vous pouvez commencer à les ajouter en vous rendant dans les {{link}} paramètres.",
+          "owner-subtitle-link": "Environments",
+          "subtitle": "Contactez le propriétaire de la feuille de calcul pour ajouter un environnement."
+        },
+        "item": {
+          "environment": "Environments",
+          "version": "Version de construction",
+          "deployed-at": "Déployé à",
+          "actions": "Actes",
+          "cta": {
+            "deploy": {
+              "tooltip": "Déployer la construction",
+              "menu": {
+                "title": "Déployer",
+                "form": {
+                  "build": {
+                    "label": "Construire",
+                    "option": "-- Sélectionner la construction --"
+                  },
+                  "cta": {
+                    "deploy": "Déployer"
+                  }
+                }
+              }
+            },
+            "unpublish": {
+              "tooltip": "Dépublier l'environnement",
+              "menu": {
+                "title": "Annuler la publication"
+              },
+              "remove": {
+                "title": "Dépublier l'environnement",
+                "description": "Cela supprimera les fichiers de l'environnement."
+              }
+            }
+          }
+        }
+      }
+    },
+    "filter": {
+      "menu": {
+        "title": "Filtre",
+        "cta": {
+          "cancel": "Annuler",
+          "apply": "Appliquer",
+          "reset": "Réinitialiser"
+        },
+        "table": {
+          "columns": "Des collones",
+          "value": "Valeur"
+        }
+      }
+    },
+    "view": {
+      "requests": {
+        "title": "Demandes",
+        "status": {
+          "label": "Statut",
+          "MERGED": "Fusionné",
+          "OPEN": "Ouvrir",
+          "DECLINED": "Diminué"
+        }
+      },
+      "no-req": "Il n'y a pas de {{status}} demandes.",
+      "cta": {
+        "back": "Retour",
+        "view": "Vue",
+        "re-open": "Rouvrir",
+        "merge": "Fusionner",
+        "decline": "Déclin"
+      },
+      "form": {
+        "title": {
+          "label": "Titre"
+        },
+        "created-by": {
+          "label": "Créé par"
+        },
+        "updated-at": {
+          "label": "Mis à jour à"
+        },
+        "status": {
+          "label": "Statut"
+        },
+        "description": {
+          "label": "La description",
+          "no-description": "Pas des description"
+        }
+      }
+    }
+  },
+  "main": {
+    "footer": {
+      "text": "© Copyright Linguallo 2019. Tous droits réservés",
+      "links": {
+        "privacy-policy": "Politique de confidentialité",
+        "terms-and-conditions": "Politique d’utilisation des données",
+        "pricing": "Prix",
+        "about": "À propos",
+        "contact": "Contactez-nous",
+        "cookies": "Cookies"
+      }
+    },
+    "header": {
+      "logo": "Linguallo",
+      "menu": {
+        "profile": "Compte",
+        "logout": "Déconnecter",
+        "login": "Connexion",
+        "signup": "S'inscrire",
+        "header": {
+          "change-language": "Changer de langue"
+        },
+        "change-language": "Changer de langue...",
+        "contact-us": "Contactez-nous"
+      },
+      "sidebar": {
+        "spreadsheets": "Feuilles",
+        "projects": "Projets",
+        "organization": {
+          "title": "Organisations",
+          "create": "Créer un organisation"
+        },
+        "spreadsheet": {
+          "general": "Général",
+          "languages": "Langues",
+          "members": "Membres",
+          "environments": "Environnements",
+          "projects": "Projets",
+          "requests": "Demandes",
+          "billing": "Facturation"
+        }
+      },
+      "banner": {
+        "confirm": "Veuillez confirmer votre adresse e-mail: {{email}}.",
+        "resend": "Ré-envoyer l'email",
+        "resend-success": "Renvoyer le succès"
+      }
+    },
+    "page": {
+      "head": {
+        "title": "Localisation simplifiée | Linguallo",
+        "description": "Localisez des applications Web et natives incroyablement facile avec <b> Linguallo </b>. \nSolution de gestion et de fourniture de localisation simple, évolutive et gratuite."
+      }
+    }
+  },
+  "home": {
+    "sidebar": {
+      "organization": {
+        "create": "Créer un organisation",
+        "title": "Organisations"
+      },
+      "spreadsheets": "Feuilles",
+      "projects": "Projets"
+    },
+    "spreadsheets": {
+      "section": {
+        "personal": {
+          "title": "Feuilles personnelles"
+        },
+        "organization": {
+          "menu": {
+            "spreadsheets": "Feuilles",
+            "projects": "Projets",
+            "members": "Membres",
+            "settings": "Paramètres"
+          }
+        }
+      }
+    },
+    "projects": {
+      "section": {
+        "personal": {
+          "title": "Projets personnels",
+          "msg": {
+            "no-projects": "Pas de projets personnels"
+          }
+        },
+        "organization": {
+          "menu": {
+            "spreadsheets": "Feuilles",
+            "projects": "Projets",
+            "members": "Membres",
+            "settings": "Paramètres"
+          }
+        }
+      }
+    }
+  },
+  "landing": {
+    "login-section": {
+      "title": "Localisation simplifiée",
+      "subtitle": "Localisez des applications Web et natives incroyablement facile avec <b> Linguallo </b>. \nSolution de gestion et de fourniture de localisation simple, évolutive et gratuite.",
+      "cta": "Inscrivez-vous, c'est gratuit!"
+    },
+    "content-section": {
+      "title": "Traduisez votre contenu en utilisant nos feuilles conviviales et cohérentes.",
+      "subtitle": "Les feuilles de Linguallo offrent des possibilités infinies aux organisations et aux développeurs ainsi qu'aux traducteurs.",
+      "cta": "Essayez-le - c'est gratuit!"
+    },
+    "hero-section": {
+      "title": "L'utilisation de <b>Linguallo</b> réduit de moitié le temps de localisation",
+      "subtitle": "Plus besoin de copier/coller manuellement.\nLes <b> feuilles de calcul faciles à utiliser </b> de Linguallo et son éditeur puissant vous aident à modifier rapidement vos traductions pour des résultats automatiquement visibles sur votre site Web et vos applications.",
+      "cta": "Inscrivez-vous, c'est gratuit!"
+    },
+    "flow-section": {
+      "title": "<b> Linguallo </b> vous permet de travailler plus en collaboration et d’en faire plus.",
+      "subtitle": "Les feuilles et les feuilles de <b> Linguallo </b> vous permettent d’organiser vos traductions de manière flexible."
+    },
+    "get-started-section": {
+      "title": "Commencer à localiser aujourd'hui",
+      "subtitle": "Tirez le meilleur parti de la localisation en vous inscrivant à Linguallo pour en faire plus.",
+      "cta": "Inscrivez-vous, c'est gratuit!"
+    },
+    "feature-section": {
+      "publisher": {
+        "title": "<b> Linguallo </b> prend en charge de nombreux formats de fichiers de localisation sur différentes plates-formes et langages de programmation.",
+        "subtitle": "Importer et exporter à partir de <b>XLIFF</b> et de <b>CSV</b> n'a jamais été aussi simple. L'éditeur de Linguallo fournit des fichiers de traduction sur votre Web ou vos applications natives dans différents formats tels que <b>.json</b>, <b>.xml</b>, <b>.strings</b>, etc."
+      }
+    },
+    "login": {
+      "form": {
+        "error": {
+          "INVALID_EMAIL": "Email ou mot de passe invalide",
+          "INVALID_PASSWORD": "Email ou mot de passe invalide"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "par exemple utilisateur@gmail.com"
+        },
+        "password": {
+          "label": "Mot de passe",
+          "placeholder": "par example  **********"
+        },
+        "cta": "Se connecter",
+        "forgot-link": "J'ai oublié mon mot de passe"
+      }
+    }
+  },
+  "project": {
+    "create": {
+      "message": {
+        "success": "Project créée"
+      }
+    }
+  },
+  "organization": {
+    "create": {
+      "message": {
+        "success": "Organisation créée"
+      },
+      "dialog": {
+        "header": "Créer une organisation",
+        "form": {
+          "name": {
+            "label": "Nom",
+            "placeholder": "par example Linguallo"
+          },
+          "cta": {
+            "cancel": "Annuler",
+            "create": "Créer "
+          }
+        }
+      }
+    },
+    "delete": {
+      "dialog": {
+        "header": "Supprimer l'organisation",
+        "msg": "Êtes-vous sûr de vouloir supprimer l'organisation {{name}}? Toutes les données seront perdues.",
+        "cta": {
+          "cancel": "Annuler",
+          "delete": "Effacer"
+        }
+      }
+    },
+    "page": {
+      "error": {
+        "not-found": {
+          "title": "Organisation non trouvée.",
+          "text": "Ce lien d'organisation n'est pas valide. Si quelqu'un vous a donné ce lien, veuillez vérifier avec eux de vous renvoyer le lien correct."
+        },
+        "forbidden": {
+          "title": "Interdit.",
+          "text": "Pour pouvoir accéder à l'organisation, veuillez {{link}}.",
+          "text-link": "S'identifier"
+        }
+      },
+      "view": {
+        "website": "Site Internet",
+        "msg": {
+          "no-website": "Pas de Site Internet"
+        },
+        "bio": "Au propos de vous",
+        "cta": {
+          "edit-organization": "Modifier l'organisation..."
+        }
+      },
+      "spreadsheets": {
+        "title": "Feuilles",
+        "msg": {
+          "no-spreadsheets": "Pas de feuilles d'organisation"
+        }
+      },
+      "projects": {
+        "title": "Projets",
+        "msg": {
+          "no-projects": "Pas de projets d'organisations"
+        }
+      },
+      "members": {
+        "title": "Membres",
+        "form": {
+          "filter": {
+            "label": "Filtre"
+          }
+        },
+        "list": {
+          "member": {
+            "status": {
+              "VIRTUAL": "Virtuel"
+            },
+            "role": {
+              "OWNER": "Propriétaire",
+              "ADMIN": "Admin",
+              "MEMBER": "Membre"
+            },
+            "remove": "Retirer",
+            "leave": "Partir"
+          }
+        },
+        "change-permission": {
+          "menu": {
+            "title": "Changer les permissions",
+            "error": {
+              "last-owner": "Vous ne pouvez pas changer de rôle car il doit y avoir au moins un propriétaire."
+            },
+            "owner": {
+              "title": "Propriétaire",
+              "text": "Accès illimité, y compris la suppression de l'organisation."
+            },
+            "admin": {
+              "title": "Admin",
+              "text": "Peut voir et éditer l'organisation et créer des feuilles."
+            },
+            "member": {
+              "title": "Membre",
+              "text": "Peut seulement voir l'organisation et rejoindre les feuilles d'organisation ou les projet"
+            }
+          }
+        },
+        "remove-member": {
+          "menu": {
+            "title": "Retirer un membre",
+            "remove": {
+              "title": "Retirer de l'organisation",
+              "text": "Supprimez tout accès à l'organisation. Ils recevront une notification."
+            }
+          }
+        },
+        "leave": {
+          "menu": {
+            "title": "Partir",
+            "error": {
+              "last-owner": "Vous ne pouvez pas partir car il doit y avoir au moins un propriétaire."
+            },
+            "leave": {
+              "title": "Quitter l'organisation",
+              "text": "Si vous quittez l’organisation, vous en perdrez l’accès."
+            }
+          }
+        },
+        "invite": {
+          "cta": {
+            "invite": "Inviter"
+          },
+          "form": {
+            "title": "Inviter",
+            "cta": {
+              "send": "Envoyer une invitation"
+            },
+            "list": {
+              "label": "Inviter un membre"
+            },
+            "message": {
+              "label": "Message"
+            },
+            "option": {
+              "normal": "<b>{{name}}</b><small> @{{username}}</small>",
+              "invited": "<b>{{name}}</b><small> @{{username}} - Invité </small>",
+              "joined": "<b>{{name}}</b><small> @{{username}} - Rejoint </small>"
+            }
+          }
+        }
+      },
+      "settings": {
+        "title": "Paramétres",
+        "cta": {
+          "delete": "Supprimer cette organisation?"
+        }
+      },
+      "edit-organization": {
+        "form": {
+          "title": "Modifier les détails",
+          "error": {
+            "SHORTNAME_EXISTS": "Le nom abrégé existe déjà"
+          },
+          "name": {
+            "label": "Nom"
+          },
+          "shortname": {
+            "label": "Le nom abrégé "
+          },
+          "bio": {
+            "label": "Au propos de vous"
+          },
+          "website": {
+            "label": "Site Internet"
+          },
+          "cta": {
+            "save": "Enrigester"
+          }
+        }
+      }
+    }
+  },
+  "common": {
+    "last-modified": {
+      "seconds-ago": "Dernière modification juste maintenant",
+      "one-minute-ago": "Dernière modification il y a une minute",
+      "ten-minutes-ago": "Dernière modification il y a dix minutes",
+      "one-hour-ago": "Dernière modification il y a une heure",
+      "one-day-ago": "Modification il y a 24 heures",
+      "date": "Dernière modification {{date}}"
+    }
+  },
+  "not-found": {
+    "page": {
+      "title": "404 - page non trouvèe",
+      "subtitle": "Oups, cette page n'existe pas. S'il vous plâit, allez à {{link}}.",
+      "subtitle-link": "Page d'accueil",
+      "head": {
+        "title": "Page non trouvée | Linguallo"
+      }
+    }
+  },
+  "auth": {
+    "page": {
+      "login": {
+        "subtitle": "Connectez-vous pour dèmarrer votre session ou {{link}}",
+        "subtitle-link": "Créer un nouveau compte",
+        "form": {
+          "error": {
+            "INVALID_EMAIL": "\nEmail ou mot de passe invalide",
+            "INVALID_PASSWORD": "\nEmail ou mot de passe invalide"
+          },
+          "email": {
+            "label": "Email",
+            "placeholder": "par exemple utilisateur@gmail.com"
+          },
+          "password": {
+            "label": "Mot de passe",
+            "placeholder": "par example  **********"
+          },
+          "cta": "Se connecter",
+          "forgot-link": "\nJ'ai oublié mon mot de passe"
+        },
+        "head": {
+          "title": "Connextion  | Linguallo"
+        }
+      },
+      "forgot": {
+        "subtitle": "Vous n'avez pas de compte? {{link}}",
+        "subtitle-link": "Il suffit d'aller créer un nouveau compte",
+        "form": {
+          "email": {
+            "label": "Email",
+            "placeholder": "par exemple utilisateur@gmail.com"
+          },
+          "cta": "Envoyer un email",
+          "login-link": "\nSe souvenir du mot de passe?",
+          "success": "S'il vous plaît vérifier votre email, nous avons envoyé le lien de vérification là-bas."
+        },
+        "head": {
+          "title": "Mot de passe oublié | Linguallo"
+        }
+      },
+      "forgot-confirm": {
+        "form": {
+          "title": "Veuillez saisir un nouveau mot de passe.",
+          "password": {
+            "label": "Nouveau mot de passe"
+          },
+          "confirm-password": {
+            "label": "Confirmez la mot de passe"
+          },
+          "cta": "Changer la mot de passe"
+        },
+        "verifying": "Jeton de vérification...",
+        "invalid-token": "Jeton invalide",
+        "success": "Mot de passe mis à jour avec succès, veuillez vous rendre et {{link}} avec le nouveau mot de passe.",
+        "success-link": "S'identifier",
+        "head": {
+          "title": "Mot de passe oublié | Linguallo"
+        }
+      },
+      "change-email": {
+        "login": {
+          "form": {
+            "title": "Connectez-vous pour changer votre email",
+            "error": {
+              "INVALID_EMAIL": "\nEmail ou mot de passe invalide",
+              "INVALID_PASSWORD": "\nEmail ou mot de passe invalide"
+            },
+            "email": {
+              "label": "Email",
+              "placeholder": "par exemple utilisateur@gmail.com"
+            },
+            "password": {
+              "label": "Mot de passe",
+              "placeholder": "par example  **********"
+            },
+            "cta": "Se connecter"
+          }
+        },
+        "verifying": "Jeton de vérification...",
+        "invalid-token": "Jeton invalide",
+        "success": "Email mis à jour avec succès",
+        "head": {
+          "title": "Changer l'email| Linguallo"
+        }
+      },
+      "register": {
+        "subtitle": "Créez un nouveau compte {{link}}",
+        "subtitle-link": "ou connectez-vous à votre compte",
+        "form": {
+          "error": {
+            "USER_EXISTS": "Cet email existe déjà"
+          },
+          "email": {
+            "label": "Email",
+            "placeholder": "par exemple utilisateur@gmail.com"
+          },
+          "name": {
+            "label": "Nom complet",
+            "placeholder": "par example John Doe"
+          },
+          "password": {
+            "label": "Mot de passe",
+            "placeholder": "par example  **********"
+          },
+          "cta": "S'incrire",
+          "accept": "En vous inscrivant, vous acceptez les {{pp}} et {{tc}} de Linguallo.",
+          "accept-pp": "Politique de confidentialité",
+          "accept-tc": "Politique d’utilisation des données"
+        },
+        "head": {
+          "title": "Créer un nouveau compte | Linguallo"
+        }
+      },
+      "verify": {
+        "verifying": "Jeton de vérification...",
+        "invalid-token": "Jeton invalide",
+        "success": "Utilisateur vérifié avec succès, veuillez continuer à {{link}}.",
+        "success-link": "Page d'accueil",
+        "head": {
+          "title": "Activer le compte  | Linguallo"
+        }
+      },
+      "invite": {
+        "verifying": "Jeton de vérification...",
+        "invalid-token": "Jeton invalide",
+        "success": "Enregistré avec succès, veuillez vous rendre sur {{link}}.",
+        "success-link": "Page d'accueil",
+        "form": {
+          "title": "S'il vous plaît entrer le mot de passe",
+          "email": {
+            "label": "Email",
+            "placeholder": "Email"
+          },
+          "name": {
+            "label": "Nom",
+            "placeholder": "Nom"
+          },
+          "password": {
+            "label": "Mot de passe",
+            "placeholder": "par example  **********"
+          },
+          "cta": "Joindre"
+        },
+        "head": {
+          "title": "Joindre | Linguallo"
+        }
+      }
+    }
+  },
+  "errors": {
+    "user": {
+      "email": {
+        "required": "Email est requis",
+        "email": "Email invalide",
+        "maxlength": "Maximum de 50 caractères"
+      },
+      "password": {
+        "required": "Mot de passe requis",
+        "minlength": "Doit comporter entre 3 et 16 caractères",
+        "maxlength": "Doit comporter entre 3 et 16 caractères"
+      },
+      "passwordNoVerify": {
+        "required": "Mot de passe requis",
+        "maxlength": "Maximum de 16 caractères"
+      },
+      "name": {
+        "required": "Le nom est requis",
+        "minlength": "Doit comporter entre 2 et 50 caractères",
+        "maxlength": "Doit comporter entre 2 et 50 caractères"
+      },
+      "username": {
+        "required": "Nom d'utilisateur est requis",
+        "minlength": "Doit comporter entre 2 et 30 caractères",
+        "maxlength": "Doit comporter entre 2 et 30 caractères"
+      },
+      "bio": {
+        "maxlength": "Maximum de 256 caractères"
+      }
+    },
+    "organization": {
+      "name": {
+        "required": "Le nom est requis",
+        "minlength": "Doit comporter entre 2 et 50 caractères",
+        "maxlength": "Doit comporter entre 2 et 50 caractères"
+      },
+      "shortname": {
+        "required": "Le nom abrégé est requis",
+        "minlength": "Doit comporter entre 2 et 30 caractères",
+        "maxlength": "Doit comporter entre 2 et 30 caractères"
+      },
+      "bio": {
+        "maxlength": "Maximum de 256 caractères"
+      },
+      "website": {
+        "maxlength": "Maximum de 50 caractères"
+      }
+    },
+    "project": {
+      "table": {
+        "language": {
+          "maxlength": "Maximum de 4096 caractères"
+        }
+      },
+      "comment": {
+        "maxlength": "Maximum de 256 caractères"
+      }
+    },
+    "spreadsheet": {
+      "name": {
+        "required": "Le nom est requis",
+        "minlength": "Doit comporter entre 2 et 50 caractères",
+        "maxlength": "Doit comporter entre 2 et 50 caractères"
+      },
+      "sheet": {
+        "name": {
+          "required": "Le nom est requis",
+          "minlength": "Doit comporter entre 2 et 50 caractères",
+          "maxlength": "Doit comporter entre 2 et 50 caractères"
+        }
+      },
+      "language": {
+        "code": {
+          "required": "Le nom de la langue est requis",
+          "minlength": "Doit comporter entre 2 et 10 caractères",
+          "maxlength": "Doit comporter entre 2 et 10 caractères"
+        },
+        "name": {
+          "required": "\nLe nom de la langue est requis",
+          "minlength": "Doit comporter entre 2 et 50 caractères",
+          "maxlength": "Doit comporter entre 2 et 50 caractères"
+        },
+        "fallbacks": {
+          "maxlength": "Maximum de 100 caractères"
+        }
+      },
+      "table": {
+        "language": {
+          "maxlength": "Maximum de 4096 caractères"
+        },
+        "description": {
+          "maxlength": "Maximum de 256 caractères"
+        },
+        "key": {
+          "required": "ID est requis",
+          "maxlength": "Maximum de 100 caractères"
+        }
+      },
+      "comment": {
+        "maxlength": "Maximum de 256 caractères"
+      }
+    }
+  },
+  "contact": {
+    "page": {
+      "title": "Contactez-nous",
+      "form": {
+        "name": {
+          "label": "Nom"
+        },
+        "email": {
+          "label": "Email"
+        },
+        "subject": {
+          "label": "Matière"
+        },
+        "text": {
+          "placeholder": "Que pouvons-nous faire pour vous?"
+        },
+        "cta": "Soumettre"
+      },
+      "success": "Le message a été envoyé, nous essaierons de vous recontacter dans les meilleurs délais.",
+      "success-link": "Continuer sur Linguallo!",
+      "head": {
+        "title": "Contactez-nous | Linguallo"
+      }
+    }
+  },
+  "terms-and-conditions": {
+    "page": {
+      "title": "Politique d’utilisation des données",
+      "head": {
+        "title": "Politique d’utilisation des données | Linguallo"
+      }
+    }
+  },
+  "privacy-policy": {
+    "page": {
+      "title": "Politique de confidentialité",
+      "head": {
+        "title": "Politique de confidentialité | Linguallo"
+      }
+    }
+  },
+  "pricing": {
+    "page": {
+      "title": "Prix",
+      "head": {
+        "title": "Prix | Linguallo"
+      }
+    },
+    "plan": {
+      "free": {
+        "price": "$0",
+        "name": "Gratuit",
+        "title": "Pour tout le monde",
+        "subtitle": "Pour toujours",
+        "benefits": {
+          "members": "<b>3</b> utilisateurs",
+          "sheets": "<b>1</b> feuilles",
+          "languages": "<b>5</b> langues",
+          "hosted-keys": "<b>500</b> clés hébergées",
+          "deployments": "Déploiements <b>illimités</b>",
+          "versions": "<b>Pas</b> de versions",
+          "content-size": "<b>5MB</b> limite de taille du contenu"
+        }
+      },
+      "general": {
+        "cta": {
+          "register": "Inscrivez-vous, c'est gratuit!",
+          "upgrade": "Mise à niveau",
+          "contact-us": "Contactez-nous"
+        },
+        "coming-soon": "Bientôt disponible",
+        "dialog": {
+          "cta": {
+            "close": "Proche"
+          },
+          "header": "Plans de mise à niveau"
+        },
+        "tab": {
+          "cloud": "Cloud",
+          "server": "Licence serveur"
+        }
+      },
+      "starter": {
+        "monthly-price": "<h2>$24.99</h2> / par mois",
+        "annual-price": "<h2>$19.99</h2> / par mois",
+        "name": "Entrée",
+        "title": "Par feuille de calcul de",
+        "billed-annually": "Facturé annuellement",
+        "billed-monthly": "Facturé mensuellement",
+        "benefits": {
+          "members": "<b>8</b> utilisateurs",
+          "sheets": "<b>4</b> feuilles",
+          "languages": "<b>12</b> langues",
+          "hosted-keys": "<b>1000</b> clés hébergées par feuille",
+          "deployments": "Déploiements <b>illimités</b>",
+          "versions": "<b>2</b> versions",
+          "content-size": "<b>10MB</b> limite de taille du contenu"
+        }
+      },
+      "professional": {
+        "monthly-price": "<h2>$99.99</h2> / par mois",
+        "annual-price": "<h2>$79.99</h2> / par mois",
+        "name": "Professionnelle",
+        "title": "Par feuille de calcul de",
+        "billed-annually": "Facturé annuellement",
+        "billed-monthly": "Facturé mensuellement",
+        "benefits": {
+          "members": "<b>25</b> utilisateurs",
+          "sheets": "Feuilles <b>illimitées</b>",
+          "languages": "Languges <b>illimitées</b>",
+          "hosted-keys": "<b>10000</b> clés hébergées par feuille",
+          "deployments": "déploiements <b>illimités</b>",
+          "versions": "<b>10 </b> versions",
+          "content-size": "<b>20MB</b> limite de taille du contenu"
+        }
+      },
+      "enterprise": {
+        "name": "Entreprise",
+        "title": "Pour les grandes entreprises",
+        "contact-us": "Contactez-nous",
+        "benefits": {
+          "members": "Utilisateurs <b>illimités</b>",
+          "spreadsheets": "Feuilles <b>illimitées</b>",
+          "hosting": "Sur place ou hébergement Cloud"
+        }
+      }
+    }
+  },
+  "projects": {
+    "page": {
+      "head": {
+        "title": "Projets | Linguallo"
+      }
+    }
+  },
+  "cookies": {
+    "page": {
+      "head": {
+        "title": "Cookies | Linguallo"
+      },
+      "title": "Cookies"
+    }
+  },
+  "member": {
+    "page": {
+      "subtitle": {
+        "about": "À propos",
+        "account": "Compte"
+      },
+      "view": {
+        "name": "Nom",
+        "username": "Nom d'utilisateur",
+        "email": "Email",
+        "bio": "Au propos de vous",
+        "cta": {
+          "change-profile": "Changer de profile...",
+          "change-password": "Changer le mot de passe...",
+          "change-email": "Changer l'email"
+        }
+      },
+      "error": {
+        "not-found": {
+          "title": "Membre introuvable",
+          "text": "Ce lien de membre est invalide. Si quelqu'un vous a donné ce lien, veuillez vérifier avec eux de vous renvoyer le lien correct."
+        },
+        "forbidden": {
+          "title": "Interdit.",
+          "text": "Pour pouvoir voir ce membre, s'il vous plaît {{link}}.",
+          "text-link": "S'identifier"
+        }
+      },
+      "change-email": {
+        "form": {
+          "title": "Changer l'email",
+          "error": {
+            "EMAIL_TAKEN": "Email déjà utilisé"
+          },
+          "email": {
+            "label": "Nouvelle email adresse"
+          },
+          "cta": {
+            "send": "Envoyer un email de confirmation"
+          }
+        }
+      },
+      "change-password": {
+        "form": {
+          "title": "Changer le mot de passe",
+          "error": {
+            "PASSWORDS_MISSMATCH": "Non concordance des mots de passe",
+            "INVALID_PASSWORD": "Mot de passe invalide"
+          },
+          "password": {
+            "label": "Mot de passe"
+          },
+          "new-password": {
+            "label": "Nouveau mot de passe"
+          },
+          "confirm-password": {
+            "label": "Nouveau mot de passe (confirmer)"
+          },
+          "cta": {
+            "save": "Enregistrer"
+          }
+        }
+      },
+      "change-profile": {
+        "form": {
+          "title": "Changer de profile",
+          "error": {
+            "USERNAME_EXISTS": "Ce nom d'utilisateur existe déjà"
+          },
+          "name": {
+            "label": "Nom"
+          },
+          "username": {
+            "label": "Nom d'utilisateur"
+          },
+          "bio": {
+            "label": "Au propos de vous"
+          },
+          "cta": {
+            "save": "Enregister"
+          }
+        }
+      }
+    }
+  },
+  "translation": {
+    "key": {
+      "status": {
+        "NOT_READY": "Pas prêt",
+        "READY": "Prêt",
+        "CUSTOM": "Sur mesure",
+        "ALL": "Tous",
+        "SELECTED": "Sélectionnés"
+      },
+      "advanced": {
+        "status": {
+          "READY": "Prêt",
+          "NOT_READY": "Pas prêt"
+        }
+      }
+    }
+  },
+  "languages": {
+    "mode": {
+      "LTR": "De gauche à droite",
+      "RTL": "De droite à gauche"
+    }
+  },
+  "tech": {
+    "page": {
+      "title": "Technologie"
+    }
+  }
+}
