@@ -1,0 +1,1828 @@
+{
+  "spreadsheet": {
+    "main": {
+      "menu": {
+        "file": "File",
+        "settings": "Settings",
+        "view": "View",
+        "upgrade": "Upgrade",
+        "publisher": "Publisher",
+        "release-mgmt": "Release Mgmt.",
+        "join": "Join",
+        "spreadsheet": {
+          "rename": "Rename",
+          "delete": "Delete",
+          "about": "About",
+          "move": "Move to...",
+          "create-backup": "Create Backup",
+          "versions": "Versions",
+          "version": "#{{version}} - {{date}}"
+        },
+        "sheet": {
+          "create": "Create sheet",
+          "sheets": "Sheets",
+          "rename": "Rename sheet",
+          "delete": "Delete sheet",
+          "import": "Import",
+          "export-import": "Export / Import",
+          "export": "Export",
+          "export-csv": "Export CSV",
+          "export-xliff": "Export XLIFF",
+          "import-csv": "Import CSV",
+          "import-xliff": "Import XLIFF",
+          "xliff": "Xliff",
+          "csv": "Csv",
+          "duplicate": "Duplicate sheet"
+        },
+        "title": {
+          "menu": "Menu",
+          "file": "File menu",
+          "export-import": "Export/Import menu"
+        }
+      },
+      "permissions": {
+        "ORGANIZATION": "<i class=\"fa fa-users\" aria-hidden=\"true\"></i> Organization Visible",
+        "PRIVATE": "<i class=\"fa fa-lock\" aria-hidden=\"true\"></i> Private",
+        "menu": {
+          "title": "Change permissions",
+          "private": {
+            "title": "Private",
+            "text": "Only spreadsheet members can see and edit this spreadsheet."
+          },
+          "organization": {
+            "title": "Organization visible",
+            "text": "All members of the organization can see and edit this spreadsheet.",
+            "warn": "This spreadsheet must be added to organization to enable this."
+          }
+        }
+      },
+      "join": {
+        "limit": {
+          "title": "Members limit",
+          "warn": "Maximum number of members reached."
+        }
+      },
+      "spreadsheet": {
+        "unsaved-changes": "Unsaved changes."
+      },
+      "publisher": {
+        "title": "Publisher"
+      },
+      "comments": {
+        "title": "Comments"
+      },
+      "sheet": {
+        "limit": {
+          "menu": {
+            "title": "Sheet limit",
+            "upgrade": {
+              "title": "Upgrade plan",
+              "text": "You have reached your plan limit, please upgrade to enable adding more sheets."
+            }
+          }
+        },
+        "create": {
+          "menu": {
+            "title": "Create",
+            "project": {
+              "title": "Project",
+              "text": "Opens create project dialog, only Owners and Admins can create project."
+            },
+            "request": {
+              "title": "Request",
+              "text": "Opens create request dialog, All members of the spreadsheet can create request."
+            }
+          }
+        }
+      },
+      "messages": {
+        "welcome": "Welcome, {{name}}"
+      }
+    },
+    "create": {
+      "message": {
+        "success": "Spreadsheet created"
+      },
+      "dialog": {
+        "header": "Create spreadsheet",
+        "form": {
+          "organization": {
+            "label": "Organization",
+            "no-org": "No organization"
+          },
+          "name": {
+            "label": "Name",
+            "placeholder": "e.g. Linguallo"
+          },
+          "cta": {
+            "cancel": "Cancel",
+            "create": "Create"
+          }
+        }
+      }
+    },
+    "request": {
+      "create": {
+        "message": {
+          "success": "Request created"
+        }
+      }
+    },
+    "file-list": {
+      "create": {
+        "cta": "Create new spreadsheet"
+      },
+      "helper": {
+        "cta": "You can start by adding new spreadsheet"
+      }
+    },
+    "error": {
+      "not-found": {
+        "title": "Spreadsheet not found.",
+        "text": "This spreadsheet may be private. If someone gave you this link, they may need to invite you to one of their spreadsheets or organizations."
+      }
+    },
+    "sidebar": {
+      "menu": {
+        "back": "Go Back",
+        "general": "General",
+        "languages": "Languages",
+        "members": "Members",
+        "environments": "Environments",
+        "projects": "Projects",
+        "requests": "Requests",
+        "billing": "Billing"
+      }
+    },
+    "settings": {
+      "return": "Return to \"{{name}}\"",
+      "general": {
+        "about": {
+          "subtitle": "About",
+          "view": {
+            "uuid": {
+              "label": "UUID"
+            },
+            "created-at": {
+              "label": "Created At"
+            },
+            "organization": {
+              "label": "Organization"
+            },
+            "permission": {
+              "label": "Permissions"
+            }
+          },
+          "cta": {
+            "rename": "Rename Spreadsheet",
+            "move": "Move to",
+            "delete": "Delete Spreadsheet"
+          }
+        }
+      },
+      "environments": {
+        "limit": {
+          "upgrade": {
+            "msg": "Maximum number of environments reached, please {{link}} to enable this functionality!",
+            "link": "UPGRADE"
+          },
+          "upgrade-max": {
+            "msg": "Maximum number of environments reached!"
+          }
+        },
+        "title": "Environments",
+        "cta": {
+          "add": "Add"
+        },
+        "menu": {
+          "add": {
+            "title": "Add environment",
+            "form": {
+              "error": {
+                "TEST_ENVIRONMENT_FAILURE": "Invalid Credentials",
+                "CREATE_ENVIRONMENT_FAILURE": "Invalid Credentials"
+              },
+              "success": {
+                "TEST_ENVIRONMENT_SUCCESS": "Test success"
+              },
+              "type": {
+                "label": "Type",
+                "options": {
+                  "S3": "AWS S3"
+                }
+              },
+              "name": {
+                "label": "Name"
+              },
+              "bucket": {
+                "label": "Bucket"
+              },
+              "region": {
+                "label": "Region"
+              },
+              "path": {
+                "label": "Path"
+              },
+              "access-key-id": {
+                "label": "Access Key ID"
+              },
+              "secret-access-key": {
+                "label": "Secret Access Key"
+              },
+              "cta": {
+                "test": "Test",
+                "save": "Save"
+              }
+            }
+          },
+          "edit": {
+            "title": "Edit environment",
+            "form": {
+              "error": {
+                "TEST_ENVIRONMENT_FAILURE": "Invalid Credentials",
+                "CREATE_ENVIRONMENT_FAILURE": "Invalid Credentials"
+              },
+              "success": {
+                "TEST_ENVIRONMENT_SUCCESS": "Test success"
+              },
+              "name": {
+                "label": "Name"
+              },
+              "bucket": {
+                "label": "Bucket"
+              },
+              "region": {
+                "label": "Region"
+              },
+              "path": {
+                "label": "Path"
+              },
+              "access-key-id": {
+                "label": "Access Key ID"
+              },
+              "secret-access-key": {
+                "label": "Secret Access Key"
+              },
+              "cta": {
+                "test": "Test",
+                "update": "Update"
+              }
+            }
+          },
+          "remove": {
+            "title": "Remove",
+            "menu": {
+              "title": "Remove environment",
+              "text": "It will remove environment and all deployments on this environments."
+            }
+          }
+        },
+        "no-environments": "There are no environments",
+        "item": {
+          "title": "{{name}} - <b>{{type}}</b>"
+        }
+      },
+      "languages": {
+        "limit": {
+          "upgrade": {
+            "msg": "Maximum number of languages reached, please {{link}} to enable this functionality!",
+            "link": "UPGRADE"
+          }
+        },
+        "title": "Languages",
+        "cta": {
+          "add": "Add"
+        },
+        "menu": {
+          "add": {
+            "title": "Add language",
+            "form": {
+              "error": {
+                "DUPLICATE_LANGUAGE_CODE": "Duplicate code"
+              },
+              "name": {
+                "label": "Name"
+              },
+              "code": {
+                "label": "Code"
+              },
+              "mode": {
+                "label": "Mode"
+              },
+              "fallbacks": {
+                "label": "Fallbacks"
+              },
+              "cta": {
+                "save": "Save"
+              }
+            }
+          },
+          "edit": {
+            "title": "Edit language",
+            "form": {
+              "error": {
+                "DUPLICATE_LANGUAGE_CODE": "Duplicate code"
+              },
+              "name": {
+                "label": "Name"
+              },
+              "code": {
+                "label": "Code"
+              },
+              "mode": {
+                "label": "Mode"
+              },
+              "fallbacks": {
+                "label": "Fallbacks"
+              },
+              "cta": {
+                "save": "Save"
+              }
+            }
+          },
+          "remove": {
+            "title": "Remove",
+            "menu": {
+              "title": "Remove language",
+              "text": "It will remove language content and affect opened requests and projects."
+            }
+          }
+        },
+        "item": {
+          "title": "{{name}} - <b>{{code}}</b>",
+          "subtitle": "{{mode}} - Fallbacks: {{fallbacks}}"
+        }
+      },
+      "members": {
+        "title": "Members",
+        "filter": {
+          "label": "Filter"
+        },
+        "item": {
+          "VIRTUAL": "Virtual",
+          "OWNER": "Owner",
+          "ADMIN": "Admin",
+          "MEMBER": "Member",
+          "remove": "Remove",
+          "leave": "Leave"
+        },
+        "limit": {
+          "upgrade": {
+            "msg": "Maximum number of members reached, please {{link}} to enable this functionality!",
+            "link": "UPGRADE"
+          }
+        },
+        "change-permission": {
+          "menu": {
+            "title": "Change permissions",
+            "error": {
+              "last-owner": "You can’t change roles because there must be at least one owner."
+            },
+            "owner": {
+              "title": "Owner",
+              "text": "Unlimited access, including deletion of spreadsheet."
+            },
+            "admin": {
+              "title": "Admin",
+              "text": "Can view and edit spreadsheet, merge requests, create projects, merge projects, create and delete builds, publish and unpublish builds."
+            },
+            "member": {
+              "title": "Member",
+              "text": "Can view spreadsheet and create requests."
+            }
+          }
+        },
+        "remove-member": {
+          "menu": {
+            "title": "Remove member",
+            "remove": {
+              "title": "Remove from spreadsheet",
+              "text": "Remove all access to the spreadsheet. They will receive a notification."
+            }
+          }
+        },
+        "leave": {
+          "menu": {
+            "title": "Leave",
+            "error": {
+              "last-owner": "You can’t leave because there must be at least one owner."
+            },
+            "leave": {
+              "title": "Leave spreadsheet",
+              "text": "If you leave spreadsheet, you will lose access to it."
+            }
+          }
+        },
+        "invite": {
+          "cta": {
+            "invite": "Invite"
+          },
+          "form": {
+            "title": "Invite",
+            "cta": {
+              "send": "Send Invitation"
+            },
+            "list": {
+              "label": "Invite member"
+            },
+            "message": {
+              "label": "Message"
+            },
+            "option": {
+              "normal": "<b>{{name}}</b><small> @{{username}}</small>",
+              "invited": "<b>{{name}}</b><small> @{{username}} - Invited</small>",
+              "joined": "<b>{{name}}</b><small> @{{username}} - Joined</small>"
+            }
+          },
+          "limit": {
+            "msg": "Maxinum number of members reached."
+          }
+        }
+      }
+    },
+    "sheet": {
+      "table": {
+        "cta": {
+          "add": "<i class=\"fas fa-plus\"></i> Add",
+          "delete": "Delete",
+          "revert": "Revert",
+          "edit": "Edit",
+          "save": "Save",
+          "actions": "Actions <i class=\"fas fa-caret-down\"></i>",
+          "create": "Create <i class=\"fas fa-caret-down\"></i>",
+          "request": {
+            "merge": "Merge",
+            "update": "Update",
+            "cancel": "Cancel",
+            "decline": "Decline"
+          }
+        },
+        "row": {
+          "cta": {
+            "revert": "Revert",
+            "edit": "Edit",
+            "delete": "Delete"
+          }
+        },
+        "thead": {
+          "id": "ID",
+          "description": "Description",
+          "status": "Status"
+        }
+      },
+      "keys": {
+        "limit": {
+          "menu": {
+            "title": "Sheet keys limit",
+            "upgrade": {
+              "title": "Upgrade plan",
+              "text": "You have reached maximum number of translation strings <b>({{length}})</b> per sheet for current plan <b>({{limit}})</b>, please upgrade to enable adding more strings."
+            },
+            "upgrade-max": {
+              "title": "Upgrade plan",
+              "text": "You have reached maximum number of translation strings per sheet."
+            }
+          }
+        }
+      },
+      "dialog": {
+        "rename": {
+          "title": "Rename sheet",
+          "form": {
+            "name": {
+              "label": "Name"
+            },
+            "error": {
+              "DUPLICATE_SHEET_NAME": "Sheet with that name already exists"
+            },
+            "cta": {
+              "rename": "Rename",
+              "cancel": "Cancel"
+            }
+          }
+        },
+        "delete": {
+          "title": "Delete sheet",
+          "form": {
+            "message": "Are you sure you would like to delete sheet {{name}}? All data will be lost!",
+            "cta": {
+              "delete": "Delete",
+              "cancel": "Cancel"
+            }
+          }
+        },
+        "export-xliff": {
+          "title": "Export XLIFF",
+          "form": {
+            "cta": {
+              "generate": "Generate",
+              "close": "Close"
+            },
+            "options": {
+              "label": "Options"
+            },
+            "namespace": {
+              "label": "Namespace"
+            },
+            "status": {
+              "label": "Status"
+            },
+            "field": {
+              "label": "Field"
+            },
+            "language": {
+              "label": "Language"
+            },
+            "code": {
+              "label": "Code"
+            },
+            "source": {
+              "label": "Source",
+              "no-lang": "-- Select language --"
+            },
+            "target": {
+              "label": "Target",
+              "no-lang": "-- Select language --"
+            }
+          }
+        },
+        "export-csv": {
+          "title": "Export CSV",
+          "form": {
+            "cta": {
+              "generate": "Generate",
+              "close": "Close"
+            },
+            "options": {
+              "label": "Options"
+            },
+            "sheet": {
+              "label": "Sheet"
+            },
+            "status": {
+              "label": "Status"
+            },
+            "field": {
+              "label": "Field"
+            },
+            "code": {
+              "label": "Code"
+            },
+            "id": {
+              "label": "ID"
+            },
+            "description": {
+              "label": "Description"
+            }
+          }
+        },
+        "import-xliff": {
+          "title": "Import XLIFF",
+          "form": {
+            "cta": {
+              "import": "Import",
+              "close": "Close"
+            },
+            "sheet": {
+              "label": "Sheet"
+            },
+            "namespace": {
+              "label": "Namespace",
+              "no-namespace": "-- Select namespace --"
+            },
+            "source-target": {
+              "label": "Source/Target"
+            },
+            "language": {
+              "label": "Language"
+            },
+            "status": {
+              "label": "Status"
+            },
+            "field": {
+              "no-namespace": "-- Select field --",
+              "source": "Source ({{language}})",
+              "target": "Target ({{language}})"
+            }
+          }
+        },
+        "import-csv": {
+          "title": "Import CSV",
+          "form": {
+            "cta": {
+              "import": "Import",
+              "close": "Close"
+            },
+            "id": {
+              "label": "ID",
+              "no-field": "-- Select field --"
+            },
+            "description": {
+              "label": "Description",
+              "no-field": "-- Select field --"
+            },
+            "language": {
+              "no-field": "-- Select field --"
+            },
+            "status": {
+              "label": "Status"
+            }
+          }
+        },
+        "key-form": {
+          "add": {
+            "title": "Create translation"
+          },
+          "edit": {
+            "title": "Edit translation"
+          },
+          "error": {
+            "DUPLICATE_ID": "That ID already exists",
+            "KEYS_LIMIT": "You have reached maximum number of keys in sheet, please upgrade your plan to enable adding more keys."
+          },
+          "form": {
+            "id": {
+              "label": "ID"
+            },
+            "mode": {
+              "label": "Modify ID (creates a copy)"
+            },
+            "description": {
+              "label": "Description"
+            },
+            "status": {
+              "label": "Status"
+            },
+            "cta": {
+              "cancel": "Cancel",
+              "delete": "Delete",
+              "update": "Update",
+              "revert": "Revert",
+              "create": "Create"
+            },
+            "advanced": {
+              "title": "Advanced",
+              "cta": {
+                "show-advanced": "Show advanced",
+                "hide-advanced": "Hide advanced",
+                "add-param": "Add param"
+              },
+              "id": {
+                "label": "ID"
+              },
+              "value": {
+                "label": "Value"
+              },
+              "remove": {
+                "menu": {
+                  "title": "Remove",
+                  "remove": {
+                    "title": "Remove param",
+                    "text": "It will remove language param."
+                  }
+                }
+              }
+            },
+            "approved": {
+              "label": "Approved"
+            }
+          }
+        }
+      }
+    },
+    "dialog": {
+      "about": {
+        "title": "About",
+        "view": {
+          "name": "Name",
+          "uuid": "UUID",
+          "permission": "Permission",
+          "organization": "Organization"
+        },
+        "cta": {
+          "close": "Close"
+        }
+      },
+      "rename": {
+        "title": "Rename spreadsheet",
+        "form": {
+          "name": {
+            "label": "Name"
+          },
+          "cta": {
+            "rename": "Rename",
+            "cancel": "Cancel"
+          }
+        }
+      },
+      "move": {
+        "title": "Move spreadsheet",
+        "form": {
+          "organization": {
+            "label": "Organization",
+            "no-org": "No organization"
+          },
+          "cta": {
+            "move": "Move",
+            "cancel": "Cancel"
+          }
+        }
+      },
+      "delete": {
+        "title": "Delete spreadsheet",
+        "form": {
+          "message": "Are you sure you would like to delete spreadsheet {{name}}? All data will be lost!",
+          "text": "To be able to proceed please enter name of spreadsheet.",
+          "error": {
+            "NAME_REQUIRED": "Invalid name"
+          },
+          "cta": {
+            "delete": "Delete",
+            "cancel": "Cancel"
+          }
+        }
+      },
+      "request-create": {
+        "title": "Create request",
+        "form": {
+          "title": {
+            "label": "Title"
+          },
+          "description": {
+            "label": "Description"
+          },
+          "cta": {
+            "create": "Create",
+            "cancel": "Cancel"
+          }
+        }
+      },
+      "request-merge": {
+        "title": "Merge request",
+        "form": {
+          "message": "Are you sure you would like to merge request <b>{{name}}</b>?",
+          "cta": {
+            "merge": "Merge",
+            "cancel": "Cancel"
+          }
+        }
+      }
+    },
+    "comments": {
+      "add": {
+        "form": {
+          "message": {
+            "label": "Message"
+          },
+          "cta": {
+            "post": "Post"
+          }
+        }
+      },
+      "na": "N/A",
+      "edit": {
+        "menu": {
+          "title": "Edit comment",
+          "form": {
+            "message": {
+              "label": "Message"
+            },
+            "cta": {
+              "save": "Save"
+            }
+          }
+        }
+      }
+    },
+    "publisher": {
+      "title": "Publisher",
+      "builds": {
+        "title": "Builds",
+        "cta": {
+          "create": "Create"
+        },
+        "create": {
+          "title": "Create build",
+          "form": {
+            "sheet": {
+              "label": "Sheet"
+            },
+            "values": {
+              "label": "Values"
+            },
+            "file-type": {
+              "label": "File Type",
+              "placeholder": "File Type"
+            },
+            "languages": {
+              "label": "Languages",
+              "placeholder": "Languages"
+            },
+            "cta": {
+              "cancel": "Cancel",
+              "build": "Build"
+            }
+          }
+        },
+        "no-builds": "There are no builds for this sheet",
+        "item": {
+          "version": "Build Version",
+          "created-at": "Created at",
+          "actions": "Actions",
+          "cta": {
+            "download": {
+              "tooltip": "Download build {{build}}"
+            },
+            "publish": {
+              "tooltip": "Publish build {{build}}",
+              "menu": {
+                "title": "Publish",
+                "form": {
+                  "mode": {
+                    "label": "Mode"
+                  },
+                  "cta": {
+                    "publish": "Publish"
+                  }
+                }
+              }
+            },
+            "delete": {
+              "tooltip": "Delete build {{build}}",
+              "menu": {
+                "title": "Remove",
+                "remove": {
+                  "title": "Remove build",
+                  "description": "It will delete build and its files."
+                }
+              }
+            }
+          }
+        }
+      },
+      "deployments": {
+        "title": "Deployments"
+      },
+      "environments": {
+        "no-env": {
+          "title": "There are no environments for this spreadsheet.",
+          "owner-subtitle": "You can start adding them by going to {{link}} settings.",
+          "owner-subtitle-link": "Environments",
+          "subtitle": "Contact spreadsheet owner to add environment."
+        },
+        "item": {
+          "environment": "Environments",
+          "version": "Build Version",
+          "deployed-at": "Deployed at",
+          "actions": "Actions",
+          "cta": {
+            "deploy": {
+              "tooltip": "Deploy build",
+              "menu": {
+                "title": "Deploy",
+                "form": {
+                  "build": {
+                    "label": "Build",
+                    "option": "-- Select Build --"
+                  },
+                  "cta": {
+                    "deploy": "Deploy"
+                  }
+                }
+              }
+            },
+            "unpublish": {
+              "tooltip": "Unpublish environment",
+              "menu": {
+                "title": "Unpublish"
+              },
+              "remove": {
+                "title": "Unpublish environment",
+                "description": "It will remove files from environment."
+              }
+            }
+          }
+        },
+        "link": {
+          "copy": "Copy environment url: {{link}}"
+        }
+      }
+    },
+    "filter": {
+      "menu": {
+        "title": "Filter",
+        "cta": {
+          "cancel": "Cancel",
+          "apply": "Apply",
+          "reset": "Reset"
+        },
+        "table": {
+          "columns": "Columns",
+          "value": "Value"
+        }
+      }
+    },
+    "view": {
+      "requests": {
+        "title": "Requests",
+        "status": {
+          "label": "Status",
+          "MERGED": "Merged",
+          "OPEN": "Open",
+          "DECLINED": "Declined"
+        }
+      },
+      "no-req": "There are no {{status}} requests.",
+      "cta": {
+        "back": "Back",
+        "view": "View",
+        "re-open": "Re-open",
+        "merge": "Merge",
+        "decline": "Decline"
+      },
+      "form": {
+        "title": {
+          "label": "Title"
+        },
+        "created-by": {
+          "label": "Created by"
+        },
+        "updated-at": {
+          "label": "Updated at"
+        },
+        "status": {
+          "label": "Status"
+        },
+        "description": {
+          "label": "Description",
+          "no-description": "No description"
+        }
+      }
+    }
+  },
+  "main": {
+    "footer": {
+      "text": "© Copyright Linguallo 2019. All rights reserved.",
+      "links": {
+        "privacy-policy": "Privacy Policy",
+        "terms-and-conditions": "Terms and Conditions",
+        "pricing": "Pricing",
+        "about": "About",
+        "contact": "Contact us",
+        "cookies": "Cookies"
+      }
+    },
+    "header": {
+      "logo": "Linguallo",
+      "menu": {
+        "profile": "Profile",
+        "logout": "Log Out",
+        "login": "Log In",
+        "signup": "Sign Up",
+        "header": {
+          "change-language": "Change language",
+          "notifications": "Notifications"
+        },
+        "change-language": "Change language...",
+        "contact-us": "Contact us",
+        "no-notifications": "No Notifications"
+      },
+      "sidebar": {
+        "spreadsheets": "Spreadsheets",
+        "projects": "Projects",
+        "organization": {
+          "title": "Organizations",
+          "create": "Create organization"
+        },
+        "spreadsheet": {
+          "general": "General",
+          "languages": "Languages",
+          "members": "Members",
+          "environments": "Environments",
+          "projects": "Projects",
+          "requests": "Requests",
+          "billing": "Billing"
+        }
+      },
+      "banner": {
+        "confirm": "Please confirm your email address: {{email}}.",
+        "resend": "Resend email.",
+        "resend-success": "RESEND SUCCESS"
+      }
+    },
+    "page": {
+      "head": {
+        "title": "Localization made simple | Linguallo",
+        "description": "Localize Web and Native Apps incredibly easy with Linguallo. Simple, scalable and free localization management and localization delivery solution."
+      }
+    }
+  },
+  "home": {
+    "sidebar": {
+      "organization": {
+        "create": "Create organization",
+        "title": "Organizations"
+      },
+      "spreadsheets": "Spreadsheets",
+      "projects": "Projects"
+    },
+    "spreadsheets": {
+      "section": {
+        "personal": {
+          "title": "My Spreadsheets"
+        },
+        "organization": {
+          "menu": {
+            "spreadsheets": "Spreadsheets",
+            "projects": "Projects",
+            "members": "Members",
+            "settings": "Settings"
+          }
+        }
+      }
+    },
+    "projects": {
+      "section": {
+        "personal": {
+          "title": "My Projects",
+          "msg": {
+            "no-projects": "No personal projects"
+          }
+        },
+        "organization": {
+          "menu": {
+            "spreadsheets": "Spreadsheets",
+            "projects": "Projects",
+            "members": "Members",
+            "settings": "Settings"
+          }
+        }
+      }
+    }
+  },
+  "landing": {
+    "login-section": {
+      "title": "Localization made simple",
+      "subtitle": "Localize Web and Native Apps incredibly easy with <b>Linguallo</b>. Simple, scalable and free localization management and localization delivery solution.",
+      "cta": "Sign Up – It’s Free!"
+    },
+    "content-section": {
+      "title": "Translate your content by using our user-friendly and coherent spreadsheets",
+      "subtitle": "Linguallo's spreadsheets offer endless possibilities both to organizations and developers and to translators.",
+      "cta": "Try it – It’s Free!"
+    },
+    "hero-section": {
+      "title": "Using <b>Linguallo</b> cuts localization time in half",
+      "subtitle": "No more time consuming manual copy/paste actions.\n<b>Linguallo's</b> easy-to-use spreadsheets and powerful publisher help you change your translations fast for automatically visible results on your Website and Apps.",
+      "cta": "Sign Up – It’s Free!"
+    },
+    "flow-section": {
+      "title": "<b>Linguallo</b> lets you work more collaboratively and get more done.",
+      "subtitle": "<b>Linguallo</b>'s spreadsheets and sheets enable you to organize your translations in a flexible way."
+    },
+    "get-started-section": {
+      "title": "Start Localizing Today",
+      "subtitle": "Make the most of localization by signing up for Linguallo to get more done.",
+      "cta": "Sign Up – It’s Free!"
+    },
+    "feature-section": {
+      "publisher": {
+        "title": "<b>Linguallo</b> supports many of localization file formats across platforms and programming languages",
+        "subtitle": "Importing and exporting from <b>XLIFF</b> and <b>CSV</b> has never been easier. Linguallo's publisher delivers translation files to your Web or Native Apps in different formats such as <b>.json</b>, <b>.xml</b>, <b>.strings</b> and many more."
+      }
+    },
+    "login": {
+      "form": {
+        "error": {
+          "INVALID_EMAIL": "Invalid email or password",
+          "INVALID_PASSWORD": "Invalid email or password"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "e.g. user@gmail.com"
+        },
+        "password": {
+          "label": "Password",
+          "placeholder": "e.g. **********"
+        },
+        "cta": "Sign In",
+        "forgot-link": "I forgot my password"
+      }
+    }
+  },
+  "project": {
+    "create": {
+      "message": {
+        "success": "Project created"
+      }
+    }
+  },
+  "organization": {
+    "create": {
+      "message": {
+        "success": "Organization created"
+      },
+      "dialog": {
+        "header": "Create organization",
+        "form": {
+          "name": {
+            "label": "Name",
+            "placeholder": "e.g. Linguallo"
+          },
+          "cta": {
+            "cancel": "Cancel",
+            "create": "Create"
+          }
+        }
+      }
+    },
+    "delete": {
+      "dialog": {
+        "header": "Delete organization",
+        "msg": "Are you sure you would like to delete organization {{name}}? All data will be lost!",
+        "cta": {
+          "cancel": "Cancel",
+          "delete": "Delete"
+        }
+      }
+    },
+    "page": {
+      "error": {
+        "not-found": {
+          "title": "Organization not found.",
+          "text": "This organization link is invalid. If someone gave you this link, please check with them to resend you correct link."
+        },
+        "forbidden": {
+          "title": "Forbidden.",
+          "text": "To be able to access organization, please {{link}}.",
+          "text-link": "login"
+        }
+      },
+      "view": {
+        "website": "Website",
+        "msg": {
+          "no-website": "No website"
+        },
+        "bio": "Bio",
+        "cta": {
+          "edit-organization": "Edit Organization..."
+        }
+      },
+      "spreadsheets": {
+        "title": "Spreadsheets",
+        "msg": {
+          "no-spreadsheets": "No organization spreadsheets"
+        }
+      },
+      "projects": {
+        "title": "Projects",
+        "msg": {
+          "no-projects": "No organization projects"
+        }
+      },
+      "members": {
+        "title": "Members",
+        "form": {
+          "filter": {
+            "label": "Filter"
+          }
+        },
+        "list": {
+          "member": {
+            "status": {
+              "VIRTUAL": "Virtual"
+            },
+            "role": {
+              "OWNER": "Owner",
+              "ADMIN": "Admin",
+              "MEMBER": "Member"
+            },
+            "remove": "Remove",
+            "leave": "Leave"
+          }
+        },
+        "change-permission": {
+          "menu": {
+            "title": "Change permissions",
+            "error": {
+              "last-owner": "You can’t change roles because there must be at least one owner."
+            },
+            "owner": {
+              "title": "Owner",
+              "text": "Unlimited access, including deletion of organization."
+            },
+            "admin": {
+              "title": "Admin",
+              "text": "Can view and edit organization and create spreadsheets."
+            },
+            "member": {
+              "title": "Member",
+              "text": "Can only view organization and join organization spreadsheets or projects"
+            }
+          }
+        },
+        "remove-member": {
+          "menu": {
+            "title": "Remove member",
+            "remove": {
+              "title": "Remove from organization",
+              "text": "Remove all access to the organization. They will receive a notification."
+            }
+          }
+        },
+        "leave": {
+          "menu": {
+            "title": "Leave",
+            "error": {
+              "last-owner": "You can’t leave because there must be at least one owner."
+            },
+            "leave": {
+              "title": "Leave organization",
+              "text": "If you leave organization, you will lose access to it."
+            }
+          }
+        },
+        "invite": {
+          "cta": {
+            "invite": "Invite"
+          },
+          "form": {
+            "title": "Invite",
+            "cta": {
+              "send": "Send Invitation"
+            },
+            "list": {
+              "label": "Invite member"
+            },
+            "message": {
+              "label": "Message"
+            },
+            "option": {
+              "normal": "<b>{{name}}</b><small> @{{username}}</small>",
+              "invited": "<b>{{name}}</b><small> @{{username}} - Invited</small>",
+              "joined": "<b>{{name}}</b><small> @{{username}} - Joined</small>"
+            }
+          }
+        }
+      },
+      "settings": {
+        "title": "Settings",
+        "cta": {
+          "delete": "Delete this organization?"
+        }
+      },
+      "edit-organization": {
+        "form": {
+          "title": "Edit details",
+          "error": {
+            "SHORTNAME_EXISTS": "Shortname already exists"
+          },
+          "name": {
+            "label": "Name"
+          },
+          "shortname": {
+            "label": "Shortname"
+          },
+          "bio": {
+            "label": "Bio"
+          },
+          "website": {
+            "label": "Website"
+          },
+          "cta": {
+            "save": "Save"
+          }
+        }
+      }
+    }
+  },
+  "common": {
+    "last-modified": {
+      "seconds-ago": "Last modified just now",
+      "one-minute-ago": "Last modified 1 minute ago",
+      "ten-minutes-ago": "Last modified 10 minutes ago",
+      "one-hour-ago": "Last modified 1 hour ago",
+      "one-day-ago": "Modified in last 24 hours",
+      "date": "Last modified {{date}}"
+    }
+  },
+  "not-found": {
+    "page": {
+      "title": "404 - page not found.",
+      "subtitle": "Oops, this page does not exist. Please go to {{link}} page.",
+      "subtitle-link": "home",
+      "head": {
+        "title": "Page not found | Linguallo"
+      }
+    }
+  },
+  "auth": {
+    "page": {
+      "login": {
+        "subtitle": "Login to start your session or {{link}}",
+        "subtitle-link": "create a new account",
+        "form": {
+          "error": {
+            "INVALID_EMAIL": "Invalid email or password",
+            "INVALID_PASSWORD": "Invalid email or password"
+          },
+          "email": {
+            "label": "Email",
+            "placeholder": "e.g. user@gmail.com"
+          },
+          "password": {
+            "label": "Password",
+            "placeholder": "e.g. **********"
+          },
+          "cta": "Sign In",
+          "forgot-link": "I forgot my password"
+        },
+        "head": {
+          "title": "Log in | Linguallo"
+        }
+      },
+      "forgot": {
+        "subtitle": "Don't have account? {{link}}",
+        "subtitle-link": "Just go and create a new account",
+        "form": {
+          "email": {
+            "label": "Email",
+            "placeholder": "e.g. user@gmail.com"
+          },
+          "cta": "Send email",
+          "login-link": "Remember password?",
+          "success": "Please check you email, we have sent verification link there."
+        },
+        "head": {
+          "title": "Forgot password | Linguallo"
+        }
+      },
+      "forgot-confirm": {
+        "form": {
+          "title": "Please enter new password",
+          "password": {
+            "label": "New Password"
+          },
+          "confirm-password": {
+            "label": "Confirm Password"
+          },
+          "cta": "Change password"
+        },
+        "verifying": "Verifying token...",
+        "invalid-token": "Invalid token.",
+        "success": "Password successfully updated, please go and {{link}} with new password.",
+        "success-link": "login",
+        "head": {
+          "title": "Forgot password | Linguallo"
+        }
+      },
+      "change-email": {
+        "login": {
+          "form": {
+            "title": "Log in to change your email.",
+            "error": {
+              "INVALID_EMAIL": "Invalid email or password",
+              "INVALID_PASSWORD": "Invalid email or password"
+            },
+            "email": {
+              "label": "Email",
+              "placeholder": "e.g. user@gmail.com"
+            },
+            "password": {
+              "label": "Password",
+              "placeholder": "e.g. **********"
+            },
+            "cta": "Sign In"
+          }
+        },
+        "verifying": "Verifying token...",
+        "invalid-token": "Invalid token.",
+        "success": "Email successfully updated!",
+        "head": {
+          "title": "Change email | Linguallo"
+        }
+      },
+      "register": {
+        "subtitle": "Create a new account {{link}}",
+        "subtitle-link": "or log in to your account",
+        "form": {
+          "error": {
+            "USER_EXISTS": "That email already exists"
+          },
+          "email": {
+            "label": "Email",
+            "placeholder": "e.g. user@gmail.com"
+          },
+          "name": {
+            "label": "Full name",
+            "placeholder": "e.g. John Doe"
+          },
+          "password": {
+            "label": "Password",
+            "placeholder": "e.g. **********"
+          },
+          "cta": "Register",
+          "accept": "By signing up, you agree to Linguallo's {{pp}} and {{tc}}",
+          "accept-pp": "Privacy Policy",
+          "accept-tc": "Terms and Conditions"
+        },
+        "head": {
+          "title": "Create account | Linguallo"
+        }
+      },
+      "verify": {
+        "verifying": "Verifying token...",
+        "invalid-token": "Invalid token.",
+        "success": "User successfully verified, please continue to {{link}}.",
+        "success-link": "home",
+        "head": {
+          "title": "Activate account | Linguallo"
+        }
+      },
+      "invite": {
+        "verifying": "Verifying token...",
+        "invalid-token": "Invalid token.",
+        "success": "Succesfully registered, please go to {{link}}.",
+        "success-link": "home page",
+        "form": {
+          "title": "Please enter password",
+          "email": {
+            "label": "Email",
+            "placeholder": "Email"
+          },
+          "name": {
+            "label": "Name",
+            "placeholder": "Name"
+          },
+          "password": {
+            "label": "Password",
+            "placeholder": "e.g. **********"
+          },
+          "cta": "Join"
+        },
+        "head": {
+          "title": "Join | Linguallo"
+        }
+      }
+    }
+  },
+  "errors": {
+    "user": {
+      "email": {
+        "required": "Email is required",
+        "email": "Invalid email",
+        "maxlength": "Maximum 50 characters long"
+      },
+      "password": {
+        "required": "Password is required",
+        "minlength": "Must be between 3 and 16 characters long",
+        "maxlength": "Must be between 3 and 16 characters long"
+      },
+      "passwordNoVerify": {
+        "required": "Password is required",
+        "maxlength": "'Maximum 16 characters long"
+      },
+      "name": {
+        "required": "Name is required",
+        "minlength": "Must be between 2 and 50 characters long",
+        "maxlength": "Must be between 2 and 50 characters long"
+      },
+      "username": {
+        "required": "Username is required",
+        "minlength": "Must be between 2 and 30 characters long",
+        "maxlength": "Must be between 2 and 30 characters long"
+      },
+      "bio": {
+        "maxlength": "Maximum 256 characters long"
+      }
+    },
+    "organization": {
+      "name": {
+        "required": "Name is required",
+        "minlength": "Must be between 2 and 50 characters long",
+        "maxlength": "Must be between 2 and 50 characters long"
+      },
+      "shortname": {
+        "required": "Shortname is required",
+        "minlength": "Must be between 2 and 30 characters long",
+        "maxlength": "Must be between 2 and 30 characters long"
+      },
+      "bio": {
+        "maxlength": "Maximum 256 characters long"
+      },
+      "website": {
+        "maxlength": "Maximum 50 characters long"
+      }
+    },
+    "project": {
+      "table": {
+        "language": {
+          "maxlength": "Maximum 4096 characters long"
+        }
+      },
+      "comment": {
+        "maxlength": "Maximum 256 characters long"
+      }
+    },
+    "spreadsheet": {
+      "name": {
+        "required": "Name is required",
+        "minlength": "Must be between 2 and 50 characters long",
+        "maxlength": "Must be between 2 and 50 characters long"
+      },
+      "sheet": {
+        "name": {
+          "required": "Name is required",
+          "minlength": "Must be between 2 and 50 characters long",
+          "maxlength": "Must be between 2 and 50 characters long"
+        }
+      },
+      "language": {
+        "code": {
+          "required": "Language code is required",
+          "minlength": "Must be between 2 and 10 characters long",
+          "maxlength": "Must be between 2 and 10 characters long"
+        },
+        "name": {
+          "required": "Language name is required",
+          "minlength": "Must be between 2 and 50 characters long",
+          "maxlength": "Must be between 2 and 50 characters long"
+        },
+        "fallbacks": {
+          "maxlength": "Maximum 100 characters long"
+        }
+      },
+      "table": {
+        "language": {
+          "maxlength": "Maximum 4096 characters long"
+        },
+        "description": {
+          "maxlength": "Maximum 256 characters long"
+        },
+        "key": {
+          "required": "ID is required",
+          "maxlength": "Maximum 100 characters long"
+        }
+      },
+      "comment": {
+        "maxlength": "Maximum 256 characters long"
+      }
+    }
+  },
+  "contact": {
+    "page": {
+      "title": "Contact us",
+      "form": {
+        "name": {
+          "label": "Name"
+        },
+        "email": {
+          "label": "Email"
+        },
+        "subject": {
+          "label": "Subject"
+        },
+        "text": {
+          "placeholder": "What can we do for you?"
+        },
+        "cta": "Submit"
+      },
+      "success": "Message has been submitted, we will try to get back to you as soon as possible.",
+      "success-link": "Continue on Linguallo!",
+      "head": {
+        "title": "Contact us | Linguallo"
+      }
+    }
+  },
+  "terms-and-conditions": {
+    "page": {
+      "title": "Terms and conditions",
+      "head": {
+        "title": "Terms and conditions | Linguallo"
+      }
+    }
+  },
+  "privacy-policy": {
+    "page": {
+      "title": "Privacy policy",
+      "head": {
+        "title": "Privacy policy | Linguallo"
+      }
+    }
+  },
+  "pricing": {
+    "page": {
+      "title": "Pricing",
+      "head": {
+        "title": "Pricing | Linguallo"
+      }
+    },
+    "plan": {
+      "free": {
+        "price": "$0",
+        "name": "Free",
+        "title": "For Everyone",
+        "subtitle": "Forever",
+        "benefits": {
+          "members": "<b>3</b> users",
+          "sheets": "<b>1</b> sheet",
+          "languages": "<b>5</b> languages",
+          "hosted-keys": "<b>500</b> hosted keys",
+          "deployments": "<b>Unlimited</b> deployments",
+          "versions": "<b>No</b> versions",
+          "content-size": "<b>5MB</b> content size limit"
+        }
+      },
+      "general": {
+        "cta": {
+          "register": "Sign Up - It's free!",
+          "upgrade": "Upgrade",
+          "contact-us": "Contact us"
+        },
+        "coming-soon": "Coming soon",
+        "dialog": {
+          "cta": {
+            "close": "Close"
+          },
+          "header": "Upgrade plans"
+        },
+        "tab": {
+          "cloud": "Cloud",
+          "server": "Server licence"
+        }
+      },
+      "starter": {
+        "monthly-price": "<h2>$24.99</h2> / month",
+        "annual-price": "<h2>$19.99</h2> / month",
+        "name": "Starter",
+        "title": "Per spreadsheet from",
+        "billed-annually": "Billed Annually",
+        "billed-monthly": "Billed monthly",
+        "benefits": {
+          "members": "<b>8</b> users",
+          "sheets": "<b>4</b> sheets",
+          "languages": "<b>12</b> languages",
+          "hosted-keys": "<b>1000</b> hosted keys per sheet",
+          "deployments": "<b>Unlimited</b> deployments",
+          "versions": "<b>2</b> versions",
+          "content-size": "<b>10MB</b> content size limit"
+        }
+      },
+      "professional": {
+        "monthly-price": "<h2>$99.99</h2> / month",
+        "annual-price": "<h2>$79.99</h2> / month",
+        "name": "Professional",
+        "title": "Per spreadsheet from",
+        "billed-annually": "Billed Annually",
+        "billed-monthly": "Billed monthly",
+        "benefits": {
+          "members": "<b>25</b> users",
+          "sheets": "<b>Unlimited</b> sheets",
+          "languages": "<b>Unlimited</b> languages",
+          "hosted-keys": "<b>10000</b> hosted keys per sheet",
+          "deployments": "<b>Unlimited</b> deployments",
+          "versions": "<b>10</b> versions",
+          "content-size": "<b>20MB</b> content size limit"
+        }
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "title": "For large companies",
+        "contact-us": "Contact us",
+        "benefits": {
+          "members": "<b>Unlimited</b> users",
+          "spreadsheets": "<b>Unlimited</b> Spreadsheets",
+          "hosting": "<b>On-premise</b> or <b>Cloud</b> hosting"
+        }
+      }
+    }
+  },
+  "projects": {
+    "page": {
+      "head": {
+        "title": "Projects | Linguallo"
+      }
+    }
+  },
+  "cookies": {
+    "page": {
+      "head": {
+        "title": "Cookies | Linguallo"
+      },
+      "title": "Cookies"
+    }
+  },
+  "member": {
+    "page": {
+      "subtitle": {
+        "about": "About",
+        "account": "Account"
+      },
+      "view": {
+        "name": "Name",
+        "username": "Username",
+        "email": "Email",
+        "bio": "Bio",
+        "cta": {
+          "change-profile": "Change profile...",
+          "change-password": "Change password...",
+          "change-email": "Change email..."
+        }
+      },
+      "error": {
+        "not-found": {
+          "title": "Member not found.",
+          "text": "This member link is invalid. If someone gave you this link, please check with them to resend you correct link."
+        },
+        "forbidden": {
+          "title": "Forbidden.",
+          "text": "To be able to view this member, please {{link}}.",
+          "text-link": "login"
+        }
+      },
+      "change-email": {
+        "form": {
+          "title": "Change email",
+          "error": {
+            "EMAIL_TAKEN": "Email already in use"
+          },
+          "email": {
+            "label": "New Email Address"
+          },
+          "cta": {
+            "send": "Send Confirmation Email"
+          }
+        }
+      },
+      "change-password": {
+        "form": {
+          "title": "Change password",
+          "error": {
+            "PASSWORDS_MISSMATCH": "Passwords missmatch",
+            "INVALID_PASSWORD": "Invalid password"
+          },
+          "password": {
+            "label": "Password"
+          },
+          "new-password": {
+            "label": "New Password"
+          },
+          "confirm-password": {
+            "label": "New Password (confirm)"
+          },
+          "cta": {
+            "save": "Save"
+          }
+        }
+      },
+      "change-profile": {
+        "form": {
+          "title": "Change profile",
+          "error": {
+            "USERNAME_EXISTS": "Username already exists"
+          },
+          "name": {
+            "label": "Name"
+          },
+          "username": {
+            "label": "Username"
+          },
+          "bio": {
+            "label": "Bio"
+          },
+          "cta": {
+            "save": "Save"
+          }
+        }
+      }
+    }
+  },
+  "translation": {
+    "key": {
+      "status": {
+        "NOT_READY": "Not ready",
+        "READY": "Ready",
+        "CUSTOM": "Custom",
+        "ALL": "All",
+        "SELECTED": "Selected"
+      },
+      "advanced": {
+        "status": {
+          "READY": "Ready",
+          "NOT_READY": "Not ready"
+        }
+      }
+    }
+  },
+  "languages": {
+    "mode": {
+      "LTR": "Left to Right",
+      "RTL": "Right to Left"
+    }
+  },
+  "tech": {
+    "page": {
+      "title": "Tech"
+    }
+  }
+}
