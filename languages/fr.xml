@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="spreadsheet.main.menu.file">french</string>
+  <string name="spreadsheet.main.menu.settings">Paramétres</string>
   <string name="spreadsheet.main.menu.view">View</string>
   <string name="spreadsheet.main.menu.upgrade">Mise à niveau</string>
   <string name="main.footer.text">© Copyright Linguallo 2019. Tous droits réservés</string>

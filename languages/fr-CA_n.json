@@ -2,7 +2,7 @@
   "spreadsheet": {
     "main": {
       "menu": {
-        "file": "french",
+        "settings": "Paramétres",
         "view": "FRCA",
         "upgrade": "Mise à niveau",
         "publisher": "Publisher",
@@ -32,13 +32,6 @@
           "xliff": "Xliff",
           "csv": "Csv",
           "duplicate": "Dupliquer la feuille"
-        },
-        "settings": {
-          "members": "Membres",
-          "general": "Générale",
-          "languages": "Langues",
-          "environments": "Environnements",
-          "billing": "Facturation"
         },
         "title": {
           "menu": "Menu",

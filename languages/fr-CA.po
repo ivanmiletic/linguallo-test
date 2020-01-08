@@ -3,8 +3,8 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
-msgid "spreadsheet.main.menu.file"
-msgstr "french"
+msgid "spreadsheet.main.menu.settings"
+msgstr "Paramétres"
 
 msgid "spreadsheet.main.menu.view"
 msgstr "FRCA"
